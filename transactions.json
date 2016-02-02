@@ -1,0 +1,7084 @@
+{
+    "A. Anisimov": {
+        "appearances": 816, 
+        "averages": {
+            "adds": 6.62377450980392, 
+            "drops": 4.49019607843137
+        }, 
+        "full_name": "Artem Anisimov", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 27, 
+                "hour": 17, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Barkov": {
+        "appearances": 1112, 
+        "averages": {
+            "adds": 3.884892086330933, 
+            "drops": 6.972122302158263
+        }, 
+        "full_name": "Aleksander Barkov", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 26, 
+                "hour": 20, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Burakovsky": {
+        "appearances": 58, 
+        "averages": {
+            "adds": 4.603448275862069, 
+            "drops": 0.1724137931034483
+        }, 
+        "full_name": "Andre Burakovsky", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "A. Duclair": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": 1.0
+        }, 
+        "full_name": "Anthony Duclair", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "A. Edler": {
+        "appearances": 232, 
+        "averages": {
+            "adds": 0.4956896551724139, 
+            "drops": 4.693965517241382
+        }, 
+        "full_name": "Alexander Edler", 
+        "last": {
+            "adds": 12, 
+            "date": {
+                "day": 2, 
+                "hour": 8, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 33
+        }
+    }, 
+    "A. Ekblad": {
+        "appearances": 110, 
+        "averages": {
+            "adds": 1.8090909090909089, 
+            "drops": 5.136363636363637
+        }, 
+        "full_name": "Aaron Ekblad", 
+        "last": {
+            "adds": 132, 
+            "date": {
+                "day": 23, 
+                "hour": 10, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 23, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Emelin": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Alexei Emelin", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "A. Forsberg": {
+        "appearances": 214, 
+        "averages": {
+            "adds": 11.294392523364486, 
+            "drops": 6.83177570093458
+        }, 
+        "full_name": "Anton Forsberg", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 16, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 976
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 16, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Galchenyuk": {
+        "appearances": 490, 
+        "averages": {
+            "adds": 0.5673469387755105, 
+            "drops": 5.993877551020412
+        }, 
+        "full_name": "Alex Galchenyuk", 
+        "last": {
+            "adds": 46, 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 100
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Goligoski": {
+        "appearances": 552, 
+        "averages": {
+            "adds": 5.961956521739134, 
+            "drops": 3.442028985507246
+        }, 
+        "full_name": "Alex Goligoski", 
+        "last": {
+            "adds": 38, 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 54
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 1, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Hammond": {
+        "appearances": 94, 
+        "averages": {
+            "adds": 2.1914893617021263, 
+            "drops": 5.404255319148938
+        }, 
+        "full_name": "Andrew Hammond", 
+        "last": {
+            "adds": 14, 
+            "date": {
+                "day": 23, 
+                "hour": 20, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 332
+        }
+    }, 
+    "A. Henrique": {
+        "appearances": 416, 
+        "averages": {
+            "adds": 2.4086538461538476, 
+            "drops": 5.862980769230768
+        }, 
+        "full_name": "Adam Henrique", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 21, 
+                "hour": 7, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Killorn": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Alex Killorn", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "A. Ladd": {
+        "appearances": 75, 
+        "averages": {
+            "adds": 0.30666666666666675, 
+            "drops": 0.6399999999999998
+        }, 
+        "full_name": "Andrew Ladd", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 31, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 14
+        }
+    }, 
+    "A. Laganiere": {
+        "appearances": 16, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Antoine Laganiere", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 13, 
+                "hour": 2, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "A. Larsson": {
+        "appearances": 48, 
+        "averages": {
+            "adds": 7.916666666666668, 
+            "drops": 1.6458333333333328
+        }, 
+        "full_name": "Adam Larsson", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "A. Lee": {
+        "appearances": 8, 
+        "averages": {
+            "adds": 0.25, 
+            "drops": 0.375
+        }, 
+        "full_name": "Anders Lee", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 9
+        }
+    }, 
+    "A. Markov": {
+        "appearances": 336, 
+        "averages": {
+            "adds": 0.4434523809523811, 
+            "drops": 2.6041666666666665
+        }, 
+        "full_name": "Andrei Markov", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 6
+        }
+    }, 
+    "A. Martinez": {
+        "appearances": 565, 
+        "averages": {
+            "adds": 5.776991150442478, 
+            "drops": 3.63362831858407
+        }, 
+        "full_name": "Alec Martinez", 
+        "last": {
+            "adds": 62, 
+            "date": {
+                "day": 1, 
+                "hour": 17, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 93
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 25, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Montoya": {
+        "appearances": 392, 
+        "averages": {
+            "adds": 11.040816326530612, 
+            "drops": 13.742346938775505
+        }, 
+        "full_name": "Al Montoya", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 19, 
+                "hour": 8, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Niemi": {
+        "appearances": 36, 
+        "averages": {
+            "adds": 0.8055555555555558, 
+            "drops": 0.05555555555555555
+        }, 
+        "full_name": "Antti Niemi", 
+        "last": {
+            "adds": 9, 
+            "date": {
+                "day": 1, 
+                "hour": 8, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "A. Nilsson": {
+        "appearances": 173, 
+        "averages": {
+            "adds": 0.7283236994219652, 
+            "drops": 11.768786127167628
+        }, 
+        "full_name": "Anders Nilsson", 
+        "last": {
+            "adds": 35, 
+            "date": {
+                "day": 7, 
+                "hour": 23, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 507
+        }
+    }, 
+    "A. Ovechkin": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Alex Ovechkin", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "A. Panarin": {
+        "appearances": 5, 
+        "averages": {
+            "adds": 3.4, 
+            "drops": 0.0
+        }, 
+        "full_name": "Artemi Panarin", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "A. Pietrangelo": {
+        "appearances": 4, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.25
+        }, 
+        "full_name": "Alex Pietrangelo", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "A. Raanta": {
+        "appearances": 240, 
+        "averages": {
+            "adds": 10.15, 
+            "drops": 9.274999999999997
+        }, 
+        "full_name": "Antti Raanta", 
+        "last": {
+            "adds": 306, 
+            "date": {
+                "day": 25, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 326
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 18, 
+                "hour": 10, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Sekera": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Andrej Sekera", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "A. Shaw": {
+        "appearances": 952, 
+        "averages": {
+            "adds": 13.371848739495796, 
+            "drops": 5.582983193277311
+        }, 
+        "full_name": "Andrew Shaw", 
+        "last": {
+            "adds": 19, 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 77
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 27, 
+                "hour": 17, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Stalock": {
+        "appearances": 12, 
+        "averages": {
+            "adds": 9.166666666666666, 
+            "drops": -0.25
+        }, 
+        "full_name": "Alex Stalock", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 24, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "A. Stralman": {
+        "appearances": 158, 
+        "averages": {
+            "adds": 3.73417721518987, 
+            "drops": 1.0569620253164558
+        }, 
+        "full_name": "Anton Stralman", 
+        "last": {
+            "adds": 67, 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 23
+        }
+    }, 
+    "A. Vasilevskiy": {
+        "appearances": 551, 
+        "averages": {
+            "adds": 10.306715063520864, 
+            "drops": 3.751361161524501
+        }, 
+        "full_name": "Andrei Vasilevskiy", 
+        "last": {
+            "adds": 59, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 294
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "A. Wennberg": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 1.0, 
+            "drops": -1.0
+        }, 
+        "full_name": "Alexander Wennberg", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 13, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "B. Campbell": {
+        "appearances": 289, 
+        "averages": {
+            "adds": 6.889273356401384, 
+            "drops": 0.2906574394463668
+        }, 
+        "full_name": "Brian Campbell", 
+        "last": {
+            "adds": 290, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 25
+        }
+    }, 
+    "B. Comeau": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 5.0
+        }, 
+        "full_name": "Blake Comeau", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 20, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "B. Dubinsky": {
+        "appearances": 116, 
+        "averages": {
+            "adds": 3.8017241379310356, 
+            "drops": 0.48275862068965497
+        }, 
+        "full_name": "Brandon Dubinsky", 
+        "last": {
+            "adds": 77, 
+            "date": {
+                "day": 1, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 6
+        }
+    }, 
+    "B. Elliott": {
+        "appearances": 593, 
+        "averages": {
+            "adds": 8.173693086003365, 
+            "drops": 3.7150084317032026
+        }, 
+        "full_name": "Brian Elliott", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 21, 
+                "hour": 21, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "B. Gallagher": {
+        "appearances": 39, 
+        "averages": {
+            "adds": 7.743589743589744, 
+            "drops": 1.6923076923076923
+        }, 
+        "full_name": "Brendan Gallagher", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "B. Horvat": {
+        "appearances": 207, 
+        "averages": {
+            "adds": 10.763285024154595, 
+            "drops": 2.038647342995169
+        }, 
+        "full_name": "Bo Horvat", 
+        "last": {
+            "adds": 234, 
+            "date": {
+                "day": 19, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 57
+        }
+    }, 
+    "B. Jenner": {
+        "appearances": 449, 
+        "averages": {
+            "adds": 4.298440979955456, 
+            "drops": 1.6636971046770617
+        }, 
+        "full_name": "Boone Jenner", 
+        "last": {
+            "adds": 207, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 24
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "B. Little": {
+        "appearances": 45, 
+        "averages": {
+            "adds": 0.5777777777777777, 
+            "drops": 0.4888888888888889
+        }, 
+        "full_name": "Bryan Little", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 1, 
+                "hour": 5, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 6
+        }
+    }, 
+    "B. Marchand": {
+        "appearances": 40, 
+        "averages": {
+            "adds": 0.7499999999999999, 
+            "drops": 2.35
+        }, 
+        "full_name": "Brad Marchand", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "B. McNabb": {
+        "appearances": 14, 
+        "averages": {
+            "adds": 0.7857142857142857, 
+            "drops": 9.071428571428571
+        }, 
+        "full_name": "Brayden McNabb", 
+        "last": {
+            "adds": 20, 
+            "date": {
+                "day": 25, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 201
+        }
+    }, 
+    "B. Nelson": {
+        "appearances": 633, 
+        "averages": {
+            "adds": 10.973143759873626, 
+            "drops": 3.590837282780412
+        }, 
+        "full_name": "Brock Nelson", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 24, 
+                "hour": 16, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "B. Pirri": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": -4.0
+        }, 
+        "full_name": "Brandon Pirri", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 5, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "B. Pouliot": {
+        "appearances": 81, 
+        "averages": {
+            "adds": 9.567901234567904, 
+            "drops": 1.0123456790123457
+        }, 
+        "full_name": "Benoit Pouliot", 
+        "last": {
+            "adds": 153, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 14
+        }
+    }, 
+    "B. Richardson": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Brad Richardson", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 5, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "B. Ryan": {
+        "appearances": 4, 
+        "averages": {
+            "adds": 0.75, 
+            "drops": 0.0
+        }, 
+        "full_name": "Bobby Ryan", 
+        "last": {
+            "adds": 38, 
+            "date": {
+                "day": 7, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "B. Saad": {
+        "appearances": 41, 
+        "averages": {
+            "adds": 1.0975609756097562, 
+            "drops": 0.0975609756097561
+        }, 
+        "full_name": "Brandon Saad", 
+        "last": {
+            "adds": 27, 
+            "date": {
+                "day": 30, 
+                "hour": 12, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "B. Schenn": {
+        "appearances": 38, 
+        "averages": {
+            "adds": 5.973684210526316, 
+            "drops": 1.0526315789473686
+        }, 
+        "full_name": "Brayden Schenn", 
+        "last": {
+            "adds": 220, 
+            "date": {
+                "day": 1, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 66
+        }
+    }, 
+    "B. Scrivens": {
+        "appearances": 295, 
+        "averages": {
+            "adds": 9.783050847457625, 
+            "drops": 8.867796610169494
+        }, 
+        "full_name": "Ben Scrivens", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 27, 
+                "hour": 21, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 381
+        }
+    }, 
+    "B. Seabrook": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.14285714285714285
+        }, 
+        "full_name": "Brent Seabrook", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "B. Sutter": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Brandon Sutter", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 27, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "C. Anderson": {
+        "appearances": 70, 
+        "averages": {
+            "adds": 0.6428571428571429, 
+            "drops": 2.757142857142857
+        }, 
+        "full_name": "Craig Anderson", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "C. Atkinson": {
+        "appearances": 231, 
+        "averages": {
+            "adds": 7.116883116883118, 
+            "drops": 0.532467532467533
+        }, 
+        "full_name": "Cam Atkinson", 
+        "last": {
+            "adds": 193, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 21
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 26, 
+                "hour": 22, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Coyle": {
+        "appearances": 124, 
+        "averages": {
+            "adds": 9.92741935483871, 
+            "drops": 5.846774193548385
+        }, 
+        "full_name": "Charlie Coyle", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 17, 
+                "hour": 15, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 281
+        }
+    }, 
+    "C. Eakin": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Cody Eakin", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 3, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "C. Fowler": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Cam Fowler", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "C. Giroux": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Claude Giroux", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "C. Hagelin": {
+        "appearances": 250, 
+        "averages": {
+            "adds": 32.703999999999965, 
+            "drops": 3.268000000000001
+        }, 
+        "full_name": "Carl Hagelin", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 18, 
+                "hour": 21, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Hellebuyck": {
+        "appearances": 951, 
+        "averages": {
+            "adds": 8.792849631966353, 
+            "drops": 3.404837013669829
+        }, 
+        "full_name": "Connor Hellebuyck", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 25, 
+                "hour": 19, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Hutton": {
+        "appearances": 47, 
+        "averages": {
+            "adds": 7.0212765957446805, 
+            "drops": 1.7234042553191493
+        }, 
+        "full_name": "Carter Hutton", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "C. Johnson": {
+        "appearances": 515, 
+        "averages": {
+            "adds": 4.015533980582522, 
+            "drops": 7.269902912621363
+        }, 
+        "full_name": "Chad Johnson", 
+        "last": {
+            "adds": 49, 
+            "date": {
+                "day": 26, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 550
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 26, 
+                "hour": 17, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Kreider": {
+        "appearances": 58, 
+        "averages": {
+            "adds": -0.12068965517241381, 
+            "drops": 10.10344827586207
+        }, 
+        "full_name": "Chris Kreider", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "C. Kunitz": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 2.5, 
+            "drops": -2.0
+        }, 
+        "full_name": "Chris Kunitz", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "C. McDavid": {
+        "appearances": 69, 
+        "averages": {
+            "adds": 6.9855072463768115, 
+            "drops": 0.11594202898550725
+        }, 
+        "full_name": "Connor McDavid", 
+        "last": {
+            "adds": 126, 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "C. McLeod": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Cody McLeod", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "C. Miller": {
+        "appearances": 35, 
+        "averages": {
+            "adds": 0.2, 
+            "drops": 8.685714285714283
+        }, 
+        "full_name": "Colin Miller", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 2, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 926
+        }
+    }, 
+    "C. Parayko": {
+        "appearances": 985, 
+        "averages": {
+            "adds": 3.6558375634517737, 
+            "drops": 3.8842639593908563
+        }, 
+        "full_name": "Colton Parayko", 
+        "last": {
+            "adds": 65, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 100
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Pickard": {
+        "appearances": 441, 
+        "averages": {
+            "adds": 9.521541950113383, 
+            "drops": 4.3718820861678
+        }, 
+        "full_name": "Calvin Pickard", 
+        "last": {
+            "adds": 206, 
+            "date": {
+                "day": 1, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 74
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 26, 
+                "hour": 21, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Price": {
+        "appearances": 12, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Carey Price", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "C. Soderberg": {
+        "appearances": 1325, 
+        "averages": {
+            "adds": 9.704150943396222, 
+            "drops": 3.198490566037732
+        }, 
+        "full_name": "Carl Soderberg", 
+        "last": {
+            "adds": 213, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 101
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Talbot": {
+        "appearances": 451, 
+        "averages": {
+            "adds": 11.314855875831485, 
+            "drops": 1.6518847006651893
+        }, 
+        "full_name": "Cam Talbot", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 2, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 6
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 18, 
+                "hour": 20, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Ward": {
+        "appearances": 583, 
+        "averages": {
+            "adds": 3.0737564322469964, 
+            "drops": 7.504288164665525
+        }, 
+        "full_name": "Cam Ward", 
+        "last": {
+            "adds": 113, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 57
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "C. Wilson": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -7.0, 
+            "drops": 7.0
+        }, 
+        "full_name": "Colin Wilson", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 10, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "C. de Haan": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Calvin de Haan", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 3, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "D. Altshuller": {
+        "appearances": 10, 
+        "averages": {
+            "adds": 8.4, 
+            "drops": 0.5
+        }, 
+        "full_name": "Daniel Altshuller", 
+        "last": {
+            "adds": 524, 
+            "date": {
+                "day": 20, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 11
+        }
+    }, 
+    "D. Backes": {
+        "appearances": 21, 
+        "averages": {
+            "adds": 0.09523809523809523, 
+            "drops": 0.19047619047619047
+        }, 
+        "full_name": "David Backes", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "D. Boyle": {
+        "appearances": 61, 
+        "averages": {
+            "adds": 1.6885245901639345, 
+            "drops": 3.639344262295082
+        }, 
+        "full_name": "Dan Boyle", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 26, 
+                "hour": 20, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 346
+        }
+    }, 
+    "D. Brassard": {
+        "appearances": 321, 
+        "averages": {
+            "adds": 3.4953271028037385, 
+            "drops": 3.4766355140186924
+        }, 
+        "full_name": "Derick Brassard", 
+        "last": {
+            "adds": 77, 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 19
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "D. Brown": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Dustin Brown", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 5, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "D. Byfuglien": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Dustin Byfuglien", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 31, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "D. DeKeyser": {
+        "appearances": 12, 
+        "averages": {
+            "adds": 6.833333333333333, 
+            "drops": 0.4166666666666667
+        }, 
+        "full_name": "Danny DeKeyser", 
+        "last": {
+            "adds": 167, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 9
+        }
+    }, 
+    "D. Dubnyk": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Devan Dubnyk", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "D. Hamilton": {
+        "appearances": 10, 
+        "averages": {
+            "adds": 0.2, 
+            "drops": 1.2
+        }, 
+        "full_name": "Dougie Hamilton", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 1, 
+                "hour": 9, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 32
+        }
+    }, 
+    "D. Krejci": {
+        "appearances": 94, 
+        "averages": {
+            "adds": 0.7446808510638298, 
+            "drops": 1.9787234042553195
+        }, 
+        "full_name": "David Krejci", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 1, 
+                "hour": 7, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "D. Kuemper": {
+        "appearances": 153, 
+        "averages": {
+            "adds": 4.9673202614379095, 
+            "drops": 4.712418300653597
+        }, 
+        "full_name": "Darcy Kuemper", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 23, 
+                "hour": 14, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "D. Kulikov": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 4.0, 
+            "drops": -1.0
+        }, 
+        "full_name": "Dmitry Kulikov", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 10, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "D. Larkin": {
+        "appearances": 53, 
+        "averages": {
+            "adds": 2.4339622641509435, 
+            "drops": 0.24528301886792453
+        }, 
+        "full_name": "Dylan Larkin", 
+        "last": {
+            "adds": 20, 
+            "date": {
+                "day": 2, 
+                "hour": 7, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "D. Orlov": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": -1.0
+        }, 
+        "full_name": "Dmitry Orlov", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "D. Pastrnak": {
+        "appearances": 378, 
+        "averages": {
+            "adds": 9.111111111111109, 
+            "drops": 5.767195767195764
+        }, 
+        "full_name": "David Pastrnak", 
+        "last": {
+            "adds": 14, 
+            "date": {
+                "day": 29, 
+                "hour": 15, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 60
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 25, 
+                "hour": 17, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "D. Perron": {
+        "appearances": 294, 
+        "averages": {
+            "adds": 9.448979591836732, 
+            "drops": 1.2074829931972788
+        }, 
+        "full_name": "David Perron", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "D. Savard": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "David Savard", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 14, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "D. Stafford": {
+        "appearances": 153, 
+        "averages": {
+            "adds": 0.6797385620915033, 
+            "drops": 11.11111111111111
+        }, 
+        "full_name": "Drew Stafford", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 19, 
+                "hour": 12, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 216
+        }
+    }, 
+    "D. Stepan": {
+        "appearances": 52, 
+        "averages": {
+            "adds": 6.307692307692307, 
+            "drops": 1.4807692307692308
+        }, 
+        "full_name": "Derek Stepan", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 26, 
+                "hour": 7, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 62
+        }
+    }, 
+    "D. Weise": {
+        "appearances": 73, 
+        "averages": {
+            "adds": 0.2465753424657534, 
+            "drops": 13.04109589041096
+        }, 
+        "full_name": "Dale Weise", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "D. Wideman": {
+        "appearances": 327, 
+        "averages": {
+            "adds": 0.04281345565749235, 
+            "drops": 14.46177370030581
+        }, 
+        "full_name": "Dennis Wideman", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 647
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 1, 
+                "hour": 15, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "E. Etem": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Emerson Etem", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "E. Johnson": {
+        "appearances": 565, 
+        "averages": {
+            "adds": 2.8460176991150443, 
+            "drops": 7.522123893805309
+        }, 
+        "full_name": "Erik Johnson", 
+        "last": {
+            "adds": 181, 
+            "date": {
+                "day": 1, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 81
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 1, 
+                "hour": 18, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "E. Kane": {
+        "appearances": 10, 
+        "averages": {
+            "adds": 2.7, 
+            "drops": 2.0
+        }, 
+        "full_name": "Evander Kane", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "E. Lack": {
+        "appearances": 893, 
+        "averages": {
+            "adds": 15.624860022396422, 
+            "drops": 2.219484882418813
+        }, 
+        "full_name": "Eddie Lack", 
+        "last": {
+            "adds": 294, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 80
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "E. Lindholm": {
+        "appearances": 106, 
+        "averages": {
+            "adds": 8.518867924528303, 
+            "drops": 0.41509433962264153
+        }, 
+        "full_name": "Elias Lindholm", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 18, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 9
+        }
+    }, 
+    "E. Staal": {
+        "appearances": 49, 
+        "averages": {
+            "adds": 1.1632653061224496, 
+            "drops": 1.2040816326530615
+        }, 
+        "full_name": "Eric Staal", 
+        "last": {
+            "adds": 12, 
+            "date": {
+                "day": 31, 
+                "hour": 10, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "F. Andersen": {
+        "appearances": 499, 
+        "averages": {
+            "adds": 3.599198396793587, 
+            "drops": 5.464929859719441
+        }, 
+        "full_name": "Frederik Andersen", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 27, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "F. Beauchemin": {
+        "appearances": 239, 
+        "averages": {
+            "adds": 2.179916317991631, 
+            "drops": 5.2301255230125525
+        }, 
+        "full_name": "Francois Beauchemin", 
+        "last": {
+            "adds": 19, 
+            "date": {
+                "day": 30, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 50
+        }
+    }, 
+    "F. Forsberg": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Filip Forsberg", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 8, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "F. Nielsen": {
+        "appearances": 267, 
+        "averages": {
+            "adds": 3.176029962546816, 
+            "drops": 5.411985018726591
+        }, 
+        "full_name": "Frans Nielsen", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 1, 
+                "hour": 11, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 54
+        }
+    }, 
+    "G. Landeskog": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Gabriel Landeskog", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 14, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "G. Nyquist": {
+        "appearances": 384, 
+        "averages": {
+            "adds": 0.6432291666666673, 
+            "drops": 2.3984375000000013
+        }, 
+        "full_name": "Gustav Nyquist", 
+        "last": {
+            "adds": 41, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 121
+        }
+    }, 
+    "H. Sedin": {
+        "appearances": 90, 
+        "averages": {
+            "adds": 0.2777777777777779, 
+            "drops": 7.322222222222221
+        }, 
+        "full_name": "Henrik Sedin", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "H. Zetterberg": {
+        "appearances": 10, 
+        "averages": {
+            "adds": 0.2, 
+            "drops": 0.2
+        }, 
+        "full_name": "Henrik Zetterberg", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 31, 
+                "hour": 4, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Abdelkader": {
+        "appearances": 118, 
+        "averages": {
+            "adds": 1.5338983050847468, 
+            "drops": 5.762711864406779
+        }, 
+        "full_name": "Justin Abdelkader", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 2, 
+                "hour": 5, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 11
+        }
+    }, 
+    "J. Allen": {
+        "appearances": 74, 
+        "averages": {
+            "adds": 0.4864864864864865, 
+            "drops": 4.027027027027027
+        }, 
+        "full_name": "Jake Allen", 
+        "last": {
+            "adds": 43, 
+            "date": {
+                "day": 15, 
+                "hour": 6, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 14
+        }
+    }, 
+    "J. Bernier": {
+        "appearances": 506, 
+        "averages": {
+            "adds": 6.262845849802374, 
+            "drops": 3.9169960474308274
+        }, 
+        "full_name": "Jonathan Bernier", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 5, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 12
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 27, 
+                "hour": 18, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Berube": {
+        "appearances": 4, 
+        "averages": {
+            "adds": 15.75, 
+            "drops": 0.25
+        }, 
+        "full_name": "Jean-Francois Berube", 
+        "last": {
+            "adds": 214, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "J. Blandisi": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Joseph Blandisi", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Boychuk": {
+        "appearances": 187, 
+        "averages": {
+            "adds": 0.49732620320855614, 
+            "drops": 19.320855614973283
+        }, 
+        "full_name": "Johnny Boychuk", 
+        "last": {
+            "adds": 27, 
+            "date": {
+                "day": 12, 
+                "hour": 22, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 414
+        }
+    }, 
+    "J. Braun": {
+        "appearances": 5, 
+        "averages": {
+            "adds": 1.6, 
+            "drops": -1.0
+        }, 
+        "full_name": "Justin Braun", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Carlson": {
+        "appearances": 8, 
+        "averages": {
+            "adds": 1.375, 
+            "drops": 0.875
+        }, 
+        "full_name": "John Carlson", 
+        "last": {
+            "adds": 20, 
+            "date": {
+                "day": 15, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "J. Carter": {
+        "appearances": 12, 
+        "averages": {
+            "adds": 0.25, 
+            "drops": 0.0
+        }, 
+        "full_name": "Jeff Carter", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 30, 
+                "hour": 7, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "J. Chimera": {
+        "appearances": 588, 
+        "averages": {
+            "adds": 5.835034013605441, 
+            "drops": 3.8248299319727885
+        }, 
+        "full_name": "Jason Chimera", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 28, 
+                "hour": 16, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Demers": {
+        "appearances": 243, 
+        "averages": {
+            "adds": 4.679012345679013, 
+            "drops": 4.876543209876539
+        }, 
+        "full_name": "Jason Demers", 
+        "last": {
+            "adds": 123, 
+            "date": {
+                "day": 1, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 145
+        }
+    }, 
+    "J. Donskoi": {
+        "appearances": 48, 
+        "averages": {
+            "adds": 7.104166666666667, 
+            "drops": 0.5833333333333336
+        }, 
+        "full_name": "Joonas Donskoi", 
+        "last": {
+            "adds": 38, 
+            "date": {
+                "day": 26, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 6
+        }
+    }, 
+    "J. Drouin": {
+        "appearances": 80, 
+        "averages": {
+            "adds": 5.550000000000002, 
+            "drops": 4.5375000000000005
+        }, 
+        "full_name": "Jonathan Drouin", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Eberle": {
+        "appearances": 64, 
+        "averages": {
+            "adds": 0.734375, 
+            "drops": 0.890625
+        }, 
+        "full_name": "Jordan Eberle", 
+        "last": {
+            "adds": 37, 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 38
+        }
+    }, 
+    "J. Eichel": {
+        "appearances": 42, 
+        "averages": {
+            "adds": 3.9523809523809526, 
+            "drops": 0.8095238095238095
+        }, 
+        "full_name": "Jack Eichel", 
+        "last": {
+            "adds": 145, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 13
+        }
+    }, 
+    "J. Enroth": {
+        "appearances": 157, 
+        "averages": {
+            "adds": 5.59235668789809, 
+            "drops": 8.10828025477707
+        }, 
+        "full_name": "Jhonas Enroth", 
+        "last": {
+            "adds": 12, 
+            "date": {
+                "day": 25, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 716
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 24, 
+                "hour": 21, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Faulk": {
+        "appearances": 3, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Justin Faulk", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 31, 
+                "hour": 5, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "J. Gibson": {
+        "appearances": 391, 
+        "averages": {
+            "adds": 11.398976982097182, 
+            "drops": 1.115089514066497
+        }, 
+        "full_name": "John Gibson", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 2, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "J. Gorges": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Josh Gorges", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 16, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "J. Gustavsson": {
+        "appearances": 123, 
+        "averages": {
+            "adds": 4.650406504065041, 
+            "drops": 4.138211382113821
+        }, 
+        "full_name": "Jonas Gustavsson", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 27, 
+                "hour": 19, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 323
+        }
+    }, 
+    "J. Halak": {
+        "appearances": 3, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.6666666666666666
+        }, 
+        "full_name": "Jaroslav Halak", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "J. Hansen": {
+        "appearances": 38, 
+        "averages": {
+            "adds": 3.2105263157894743, 
+            "drops": 3.5
+        }, 
+        "full_name": "Jannik Hansen", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 9, 
+                "hour": 15, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 304
+        }
+    }, 
+    "J. Hayes": {
+        "appearances": 135, 
+        "averages": {
+            "adds": 10.599999999999996, 
+            "drops": 3.2666666666666657
+        }, 
+        "full_name": "Jimmy Hayes", 
+        "last": {
+            "adds": 13, 
+            "date": {
+                "day": 17, 
+                "hour": 10, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 127
+        }
+    }, 
+    "J. Hiller": {
+        "appearances": 449, 
+        "averages": {
+            "adds": 10.750556792873047, 
+            "drops": 5.020044543429841
+        }, 
+        "full_name": "Jonas Hiller", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 21, 
+                "hour": 22, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Howard": {
+        "appearances": 199, 
+        "averages": {
+            "adds": 0.5276381909547739, 
+            "drops": 5.346733668341706
+        }, 
+        "full_name": "Jimmy Howard", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Huberdeau": {
+        "appearances": 721, 
+        "averages": {
+            "adds": 5.350901525658804, 
+            "drops": 3.667128987517333
+        }, 
+        "full_name": "Jonathan Huberdeau", 
+        "last": {
+            "adds": 37, 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 20
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 26, 
+                "hour": 21, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Hudler": {
+        "appearances": 278, 
+        "averages": {
+            "adds": 2.5791366906474824, 
+            "drops": 7.284172661870506
+        }, 
+        "full_name": "Jiri Hudler", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "J. Iginla": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Jarome Iginla", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 19, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "J. Jagr": {
+        "appearances": 358, 
+        "averages": {
+            "adds": 7.68715083798883, 
+            "drops": 3.421787709497207
+        }, 
+        "full_name": "Jaromir Jagr", 
+        "last": {
+            "adds": 16, 
+            "date": {
+                "day": 27, 
+                "hour": 8, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 85
+        }
+    }, 
+    "J. Jokinen": {
+        "appearances": 413, 
+        "averages": {
+            "adds": 3.8789346246973353, 
+            "drops": 2.9588377723970956
+        }, 
+        "full_name": "Jussi Jokinen", 
+        "last": {
+            "adds": 327, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 30
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Korpisalo": {
+        "appearances": 214, 
+        "averages": {
+            "adds": 7.378504672897199, 
+            "drops": 1.0841121495327104
+        }, 
+        "full_name": "Joonas Korpisalo", 
+        "last": {
+            "adds": 144, 
+            "date": {
+                "day": 1, 
+                "hour": 18, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 23
+        }
+    }, 
+    "J. Lehtera": {
+        "appearances": 36, 
+        "averages": {
+            "adds": 9.0, 
+            "drops": 1.0277777777777777
+        }, 
+        "full_name": "Jori Lehtera", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 25, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 10
+        }
+    }, 
+    "J. Liles": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "John-Michael Liles", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 23, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "J. Markstrom": {
+        "appearances": 509, 
+        "averages": {
+            "adds": 11.298624754420427, 
+            "drops": 4.200392927308448
+        }, 
+        "full_name": "Jacob Markstrom", 
+        "last": {
+            "adds": 448, 
+            "date": {
+                "day": 22, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 122
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 18, 
+                "hour": 16, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. McGinn": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Jamie McGinn", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 20, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "J. Miller": {
+        "appearances": 255, 
+        "averages": {
+            "adds": 13.741176470588233, 
+            "drops": 3.439215686274511
+        }, 
+        "full_name": "J.T. Miller", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 25, 
+                "hour": 21, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Muzzin": {
+        "appearances": 94, 
+        "averages": {
+            "adds": 10.234042553191488, 
+            "drops": 1.1276595744680857
+        }, 
+        "full_name": "Jake Muzzin", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Neal": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": -0.5
+        }, 
+        "full_name": "James Neal", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Oduya": {
+        "appearances": 60, 
+        "averages": {
+            "adds": 7.216666666666669, 
+            "drops": 4.6
+        }, 
+        "full_name": "Johnny Oduya", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 8, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "J. Petry": {
+        "appearances": 7, 
+        "averages": {
+            "adds": -0.42857142857142855, 
+            "drops": 3.857142857142857
+        }, 
+        "full_name": "Jeff Petry", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Pominville": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": 8.0
+        }, 
+        "full_name": "Jason Pominville", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 7, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "J. Reimer": {
+        "appearances": 1441, 
+        "averages": {
+            "adds": 6.6398334489937545, 
+            "drops": 4.970159611380979
+        }, 
+        "full_name": "James Reimer", 
+        "last": {
+            "adds": 115, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 51
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Schwartz": {
+        "appearances": 186, 
+        "averages": {
+            "adds": 6.091397849462366, 
+            "drops": 0.17204301075268813
+        }, 
+        "full_name": "Jaden Schwartz", 
+        "last": {
+            "adds": 447, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 10
+        }
+    }, 
+    "J. Silfverberg": {
+        "appearances": 476, 
+        "averages": {
+            "adds": 9.170168067226895, 
+            "drops": 1.6638655462184888
+        }, 
+        "full_name": "Jakob Silfverberg", 
+        "last": {
+            "adds": 134, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 33
+        }
+    }, 
+    "J. Skinner": {
+        "appearances": 295, 
+        "averages": {
+            "adds": 4.5355932203389795, 
+            "drops": 4.155932203389829
+        }, 
+        "full_name": "Jeff Skinner", 
+        "last": {
+            "adds": 164, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 44
+        }
+    }, 
+    "J. Spurgeon": {
+        "appearances": 155, 
+        "averages": {
+            "adds": 2.251612903225806, 
+            "drops": 5.225806451612902
+        }, 
+        "full_name": "Jared Spurgeon", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 26, 
+                "hour": 7, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 68
+        }
+    }, 
+    "J. Staal": {
+        "appearances": 929, 
+        "averages": {
+            "adds": 6.333692142088268, 
+            "drops": 2.511302475780408
+        }, 
+        "full_name": "Jordan Staal", 
+        "last": {
+            "adds": 562, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 40
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Tavares": {
+        "appearances": 20, 
+        "averages": {
+            "adds": -0.05, 
+            "drops": 0.0
+        }, 
+        "full_name": "John Tavares", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "J. Thornton": {
+        "appearances": 186, 
+        "averages": {
+            "adds": 8.193548387096781, 
+            "drops": 0.7258064516129032
+        }, 
+        "full_name": "Joe Thornton", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "J. Toews": {
+        "appearances": 3, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Jonathan Toews", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 30, 
+                "hour": 4, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "J. Ward": {
+        "appearances": 70, 
+        "averages": {
+            "adds": 8.385714285714283, 
+            "drops": 3.3714285714285714
+        }, 
+        "full_name": "Joel Ward", 
+        "last": {
+            "adds": 37, 
+            "date": {
+                "day": 25, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 186
+        }
+    }, 
+    "J. Williams": {
+        "appearances": 1205, 
+        "averages": {
+            "adds": 11.214937759336095, 
+            "drops": 2.9037344398340266
+        }, 
+        "full_name": "Justin Williams", 
+        "last": {
+            "adds": 90, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 126
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "J. Zatkoff": {
+        "appearances": 60, 
+        "averages": {
+            "adds": 0.7166666666666667, 
+            "drops": 11.75
+        }, 
+        "full_name": "Jeff Zatkoff", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 17, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "J. Zucker": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -1.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Jason Zucker", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "J. van Riemsdyk": {
+        "appearances": 547, 
+        "averages": {
+            "adds": 1.173674588665448, 
+            "drops": 10.78244972577696
+        }, 
+        "full_name": "James van Riemsdyk", 
+        "last": {
+            "adds": 47, 
+            "date": {
+                "day": 30, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 33
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 30, 
+                "hour": 16, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "K. Alzner": {
+        "appearances": 110, 
+        "averages": {
+            "adds": 7.254545454545455, 
+            "drops": 1.3272727272727278
+        }, 
+        "full_name": "Karl Alzner", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "K. Fiala": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Kevin Fiala", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 16, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "K. Kinkaid": {
+        "appearances": 63, 
+        "averages": {
+            "adds": 1.7301587301587313, 
+            "drops": 6.365079365079365
+        }, 
+        "full_name": "Keith Kinkaid", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 13, 
+                "hour": 22, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 439
+        }
+    }, 
+    "K. Klein": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Kevin Klein", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "K. Lehtonen": {
+        "appearances": 200, 
+        "averages": {
+            "adds": 0.8050000000000002, 
+            "drops": 5.450000000000002
+        }, 
+        "full_name": "Kari Lehtonen", 
+        "last": {
+            "adds": 14, 
+            "date": {
+                "day": 1, 
+                "hour": 9, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 22
+        }
+    }, 
+    "K. Letang": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 3.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Kris Letang", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "K. Okposo": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.5, 
+            "drops": 0.0
+        }, 
+        "full_name": "Kyle Okposo", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "K. Palmieri": {
+        "appearances": 518, 
+        "averages": {
+            "adds": 3.1138996138996147, 
+            "drops": 4.8494208494208495
+        }, 
+        "full_name": "Kyle Palmieri", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 24, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "K. Ramo": {
+        "appearances": 1476, 
+        "averages": {
+            "adds": 5.4424119241192415, 
+            "drops": 7.022357723577235
+        }, 
+        "full_name": "Karri Ramo", 
+        "last": {
+            "adds": 126, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 90
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "K. Turris": {
+        "appearances": 480, 
+        "averages": {
+            "adds": 0.2895833333333337, 
+            "drops": 4.22083333333333
+        }, 
+        "full_name": "Kyle Turris", 
+        "last": {
+            "adds": 10, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 206
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "K. Versteeg": {
+        "appearances": 378, 
+        "averages": {
+            "adds": 8.03968253968254, 
+            "drops": 1.6243386243386253
+        }, 
+        "full_name": "Kris Versteeg", 
+        "last": {
+            "adds": 665, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 28
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "K. Yandle": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Keith Yandle", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 31, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "L. Couture": {
+        "appearances": 58, 
+        "averages": {
+            "adds": 3.103448275862069, 
+            "drops": 0.13793103448275865
+        }, 
+        "full_name": "Logan Couture", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 31, 
+                "hour": 7, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "L. Domingue": {
+        "appearances": 1410, 
+        "averages": {
+            "adds": 9.217730496453868, 
+            "drops": 3.7815602836879485
+        }, 
+        "full_name": "Louis Domingue", 
+        "last": {
+            "adds": 156, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 47
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 1, 
+                "hour": 20, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "L. Draisaitl": {
+        "appearances": 853, 
+        "averages": {
+            "adds": 1.7631887456037523, 
+            "drops": 3.4759671746776073
+        }, 
+        "full_name": "Leon Draisaitl", 
+        "last": {
+            "adds": 48, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 133
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "L. Eriksson": {
+        "appearances": 37, 
+        "averages": {
+            "adds": 1.1081081081081081, 
+            "drops": 0.40540540540540543
+        }, 
+        "full_name": "Loui Eriksson", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 2, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "L. Komarov": {
+        "appearances": 1421, 
+        "averages": {
+            "adds": 3.640394088669943, 
+            "drops": 5.549612948627728
+        }, 
+        "full_name": "Leo Komarov", 
+        "last": {
+            "adds": 54, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 141
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 1, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "L. Stempniak": {
+        "appearances": 1071, 
+        "averages": {
+            "adds": 7.493930905695605, 
+            "drops": 2.781512605042016
+        }, 
+        "full_name": "Lee Stempniak", 
+        "last": {
+            "adds": 242, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 59
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "L. Ullmark": {
+        "appearances": 53, 
+        "averages": {
+            "adds": 0.09433962264150944, 
+            "drops": 14.773584905660375
+        }, 
+        "full_name": "Linus Ullmark", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 15, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 833
+        }
+    }, 
+    "M. Backlund": {
+        "appearances": 226, 
+        "averages": {
+            "adds": 9.022123893805299, 
+            "drops": 3.3097345132743374
+        }, 
+        "full_name": "Mikael Backlund", 
+        "last": {
+            "adds": 76, 
+            "date": {
+                "day": 26, 
+                "hour": 22, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 344
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 24, 
+                "hour": 9, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Beleskey": {
+        "appearances": 211, 
+        "averages": {
+            "adds": 6.331753554502372, 
+            "drops": 3.677725118483412
+        }, 
+        "full_name": "Matt Beleskey", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Boedker": {
+        "appearances": 1169, 
+        "averages": {
+            "adds": 3.1650983746792116, 
+            "drops": 5.30196749358426
+        }, 
+        "full_name": "Mikkel Boedker", 
+        "last": {
+            "adds": 30, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 133
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Borowiecki": {
+        "appearances": 39, 
+        "averages": {
+            "adds": 4.05128205128205, 
+            "drops": 1.3076923076923077
+        }, 
+        "full_name": "Mark Borowiecki", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 25, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "M. Cammalleri": {
+        "appearances": 253, 
+        "averages": {
+            "adds": 3.723320158102765, 
+            "drops": 4.628458498023718
+        }, 
+        "full_name": "Mike Cammalleri", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 434
+        }
+    }, 
+    "M. Condon": {
+        "appearances": 1165, 
+        "averages": {
+            "adds": 4.684120171673819, 
+            "drops": 6.433476394849788
+        }, 
+        "full_name": "Mike Condon", 
+        "last": {
+            "adds": 77, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 94
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Del Zotto": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Michael Del Zotto", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 19, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "M. Domi": {
+        "appearances": 264, 
+        "averages": {
+            "adds": 5.5833333333333375, 
+            "drops": 1.3257575757575761
+        }, 
+        "full_name": "Max Domi", 
+        "last": {
+            "adds": 12, 
+            "date": {
+                "day": 2, 
+                "hour": 8, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 26
+        }
+    }, 
+    "M. Duchene": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.5, 
+            "drops": 0.0
+        }, 
+        "full_name": "Matt Duchene", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Ekholm": {
+        "appearances": 549, 
+        "averages": {
+            "adds": 13.697632058287795, 
+            "drops": 0.8360655737704917
+        }, 
+        "full_name": "Mattias Ekholm", 
+        "last": {
+            "adds": 374, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 65
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Fayne": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Mark Fayne", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Ferland": {
+        "appearances": 23, 
+        "averages": {
+            "adds": 8.869565217391305, 
+            "drops": 0.782608695652174
+        }, 
+        "full_name": "Micheal Ferland", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 13, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "M. Fleury": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Marc-Andre Fleury", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 31, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Gaborik": {
+        "appearances": 7, 
+        "averages": {
+            "adds": -0.5714285714285714, 
+            "drops": 9.714285714285714
+        }, 
+        "full_name": "Marian Gaborik", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "M. Granlund": {
+        "appearances": 3, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 2.6666666666666665
+        }, 
+        "full_name": "Mikael Granlund", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "M. Green": {
+        "appearances": 37, 
+        "averages": {
+            "adds": 4.72972972972973, 
+            "drops": 2.3783783783783785
+        }, 
+        "full_name": "Mike Green", 
+        "last": {
+            "adds": 35, 
+            "date": {
+                "day": 30, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 46
+        }
+    }, 
+    "M. Hanzal": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 1.0, 
+            "drops": -3.0
+        }, 
+        "full_name": "Martin Hanzal", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 24, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "M. Hoffman": {
+        "appearances": 272, 
+        "averages": {
+            "adds": 2.0588235294117645, 
+            "drops": 6.691176470588238
+        }, 
+        "full_name": "Mike Hoffman", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 23, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Hossa": {
+        "appearances": 292, 
+        "averages": {
+            "adds": 8.07534246575343, 
+            "drops": 0.7808219178082193
+        }, 
+        "full_name": "Marian Hossa", 
+        "last": {
+            "adds": 22, 
+            "date": {
+                "day": 28, 
+                "hour": 6, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 12
+        }
+    }, 
+    "M. Hutchinson": {
+        "appearances": 70, 
+        "averages": {
+            "adds": 3.0285714285714276, 
+            "drops": 12.857142857142858
+        }, 
+        "full_name": "Michael Hutchinson", 
+        "last": {
+            "adds": 26, 
+            "date": {
+                "day": 4, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 943
+        }
+    }, 
+    "M. Johansson": {
+        "appearances": 1407, 
+        "averages": {
+            "adds": 10.521677327647444, 
+            "drops": 4.6062544420753495
+        }, 
+        "full_name": "Marcus Johansson", 
+        "last": {
+            "adds": 21, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 421
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Jones": {
+        "appearances": 6, 
+        "averages": {
+            "adds": 0.16666666666666666, 
+            "drops": 0.6666666666666666
+        }, 
+        "full_name": "Martin Jones", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Koivu": {
+        "appearances": 744, 
+        "averages": {
+            "adds": 2.100806451612899, 
+            "drops": 8.216397849462366
+        }, 
+        "full_name": "Mikko Koivu", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 24, 
+                "hour": 21, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Lucic": {
+        "appearances": 27, 
+        "averages": {
+            "adds": 1.2592592592592593, 
+            "drops": 1.037037037037037
+        }, 
+        "full_name": "Milan Lucic", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "M. Martin": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Matt Martin", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Michalek": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Milan Michalek", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 23, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "M. Murray": {
+        "appearances": 135, 
+        "averages": {
+            "adds": 0.688888888888889, 
+            "drops": 26.3037037037037
+        }, 
+        "full_name": "Matt Murray", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 5, 
+                "hour": 8, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 125
+        }
+    }, 
+    "M. Neuvirth": {
+        "appearances": 944, 
+        "averages": {
+            "adds": 4.739406779661014, 
+            "drops": 4.705508474576264
+        }, 
+        "full_name": "Michal Neuvirth", 
+        "last": {
+            "adds": 36, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 423
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Niskanen": {
+        "appearances": 336, 
+        "averages": {
+            "adds": 7.431547619047615, 
+            "drops": 1.247023809523809
+        }, 
+        "full_name": "Matt Niskanen", 
+        "last": {
+            "adds": 20, 
+            "date": {
+                "day": 1, 
+                "hour": 10, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 27
+        }
+    }, 
+    "M. Pacioretty": {
+        "appearances": 17, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Max Pacioretty", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 6, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Perreault": {
+        "appearances": 103, 
+        "averages": {
+            "adds": 1.3980582524271845, 
+            "drops": 7.106796116504855
+        }, 
+        "full_name": "Mathieu Perreault", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Ribeiro": {
+        "appearances": 42, 
+        "averages": {
+            "adds": 5.690476190476191, 
+            "drops": 1.8095238095238095
+        }, 
+        "full_name": "Mike Ribeiro", 
+        "last": {
+            "adds": 348, 
+            "date": {
+                "day": 27, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 120
+        }
+    }, 
+    "M. Richards": {
+        "appearances": 11, 
+        "averages": {
+            "adds": 8.363636363636363, 
+            "drops": 0.8181818181818182
+        }, 
+        "full_name": "Mike Richards", 
+        "last": {
+            "adds": 156, 
+            "date": {
+                "day": 10, 
+                "hour": 10, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 31
+        }
+    }, 
+    "M. Rielly": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Morgan Rielly", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "M. Scandella": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Marco Scandella", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 3, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "M. Scheifele": {
+        "appearances": 27, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 7.222222222222222
+        }, 
+        "full_name": "Mark Scheifele", 
+        "last": {
+            "adds": 15, 
+            "date": {
+                "day": 15, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 18
+        }
+    }, 
+    "M. Stone": {
+        "appearances": 1120, 
+        "averages": {
+            "adds": 3.566071428571429, 
+            "drops": 4.246428571428574
+        }, 
+        "full_name": "Michael Stone", 
+        "last": {
+            "adds": 10, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 171
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Streit": {
+        "appearances": 31, 
+        "averages": {
+            "adds": 0.7419354838709677, 
+            "drops": 4.03225806451613
+        }, 
+        "full_name": "Mark Streit", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 11
+        }
+    }, 
+    "M. Vlasic": {
+        "appearances": 1133, 
+        "averages": {
+            "adds": 20.63459841129747, 
+            "drops": 2.7634598411297446
+        }, 
+        "full_name": "Marc-Edouard Vlasic", 
+        "last": {
+            "adds": 245, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 86
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "M. Zibanejad": {
+        "appearances": 233, 
+        "averages": {
+            "adds": 3.8669527896995723, 
+            "drops": 4.6609442060085815
+        }, 
+        "full_name": "Mika Zibanejad", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 1, 
+                "hour": 5, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "M. Zuccarello": {
+        "appearances": 35, 
+        "averages": {
+            "adds": 1.0857142857142856, 
+            "drops": 1.0285714285714285
+        }, 
+        "full_name": "Mats Zuccarello", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 2, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "N. Backstrom": {
+        "appearances": 8, 
+        "averages": {
+            "adds": 3.0, 
+            "drops": 1.0
+        }, 
+        "full_name": "Niklas Backstrom", 
+        "last": {
+            "adds": 69, 
+            "date": {
+                "day": 3, 
+                "hour": 7, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 20
+        }
+    }, 
+    "N. Beaulieu": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Nathan Beaulieu", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Bjugstad": {
+        "appearances": 3, 
+        "averages": {
+            "adds": -3.0, 
+            "drops": -1.3333333333333333
+        }, 
+        "full_name": "Nick Bjugstad", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Ehlers": {
+        "appearances": 319, 
+        "averages": {
+            "adds": 12.548589341692793, 
+            "drops": 0.510971786833856
+        }, 
+        "full_name": "Nikolaj Ehlers", 
+        "last": {
+            "adds": 92, 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 34
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 27, 
+                "hour": 18, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "N. Foligno": {
+        "appearances": 178, 
+        "averages": {
+            "adds": 3.8820224719101115, 
+            "drops": 3.3764044943820224
+        }, 
+        "full_name": "Nick Foligno", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "N. Hjalmarsson": {
+        "appearances": 21, 
+        "averages": {
+            "adds": 7.619047619047619, 
+            "drops": 0.6190476190476191
+        }, 
+        "full_name": "Niklas Hjalmarsson", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Holden": {
+        "appearances": 93, 
+        "averages": {
+            "adds": 8.924731182795698, 
+            "drops": 1.935483870967742
+        }, 
+        "full_name": "Nick Holden", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 27, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Kadri": {
+        "appearances": 628, 
+        "averages": {
+            "adds": 4.765923566878982, 
+            "drops": 3.5063694267515926
+        }, 
+        "full_name": "Nazem Kadri", 
+        "last": {
+            "adds": 129, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 90
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "N. Kronwall": {
+        "appearances": 270, 
+        "averages": {
+            "adds": 0.2222222222222222, 
+            "drops": 20.214814814814815
+        }, 
+        "full_name": "Niklas Kronwall", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 20, 
+                "hour": 13, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "N. Leddy": {
+        "appearances": 4, 
+        "averages": {
+            "adds": -0.5, 
+            "drops": -0.75
+        }, 
+        "full_name": "Nick Leddy", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Niederreiter": {
+        "appearances": 12, 
+        "averages": {
+            "adds": 2.9166666666666665, 
+            "drops": 0.9166666666666666
+        }, 
+        "full_name": "Nino Niederreiter", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 6, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "N. Schmidt": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": -1.0
+        }, 
+        "full_name": "Nate Schmidt", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "N. Yakupov": {
+        "appearances": 35, 
+        "averages": {
+            "adds": 5.828571428571428, 
+            "drops": 1.3142857142857145
+        }, 
+        "full_name": "Nail Yakupov", 
+        "last": {
+            "adds": 282, 
+            "date": {
+                "day": 15, 
+                "hour": 20, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 61
+        }
+    }, 
+    "O. Ekman-Larsson": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Oliver Ekman-Larsson", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "O. Maatta": {
+        "appearances": 148, 
+        "averages": {
+            "adds": 9.668918918918918, 
+            "drops": 2.0337837837837838
+        }, 
+        "full_name": "Olli Maatta", 
+        "last": {
+            "adds": 312, 
+            "date": {
+                "day": 23, 
+                "hour": 23, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 177
+        }
+    }, 
+    "O. Palat": {
+        "appearances": 97, 
+        "averages": {
+            "adds": 8.391752577319588, 
+            "drops": 0.5876288659793811
+        }, 
+        "full_name": "Ondrej Palat", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "P. Bergeron": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Patrice Bergeron", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "P. Berglund": {
+        "appearances": 261, 
+        "averages": {
+            "adds": 13.942528735632184, 
+            "drops": 2.9386973180076623
+        }, 
+        "full_name": "Patrik Berglund", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 18, 
+                "hour": 9, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "P. Datsyuk": {
+        "appearances": 10, 
+        "averages": {
+            "adds": -0.4, 
+            "drops": 0.0
+        }, 
+        "full_name": "Pavel Datsyuk", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "P. Grubauer": {
+        "appearances": 205, 
+        "averages": {
+            "adds": 11.185365853658531, 
+            "drops": 4.243902439024389
+        }, 
+        "full_name": "Philipp Grubauer", 
+        "last": {
+            "adds": 635, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 37
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "P. Hornqvist": {
+        "appearances": 745, 
+        "averages": {
+            "adds": 12.598657718120815, 
+            "drops": 2.108724832214764
+        }, 
+        "full_name": "Patric Hornqvist", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 1, 
+                "hour": 7, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 12
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 27, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "P. Kessel": {
+        "appearances": 37, 
+        "averages": {
+            "adds": 0.16216216216216217, 
+            "drops": 0.08108108108108109
+        }, 
+        "full_name": "Phil Kessel", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "P. Marleau": {
+        "appearances": 50, 
+        "averages": {
+            "adds": 0.5800000000000001, 
+            "drops": 1.4999999999999998
+        }, 
+        "full_name": "Patrick Marleau", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "P. Mrazek": {
+        "appearances": 15, 
+        "averages": {
+            "adds": 2.8, 
+            "drops": 0.3333333333333333
+        }, 
+        "full_name": "Petr Mrazek", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "P. Parenteau": {
+        "appearances": 5, 
+        "averages": {
+            "adds": 3.8, 
+            "drops": 2.8
+        }, 
+        "full_name": "Pierre-Alexandr Parenteau", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 14, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "P. Rinne": {
+        "appearances": 21, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.14285714285714285
+        }, 
+        "full_name": "Pekka Rinne", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "P. Sharp": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Patrick Sharp", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "P. Stastny": {
+        "appearances": 253, 
+        "averages": {
+            "adds": 14.474308300395272, 
+            "drops": 5.047430830039524
+        }, 
+        "full_name": "Paul Stastny", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 20, 
+                "hour": 19, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "P. Subban": {
+        "appearances": 4, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "P.K. Subban", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "R. Berra": {
+        "appearances": 216, 
+        "averages": {
+            "adds": 0.04629629629629632, 
+            "drops": 0.42129629629629634
+        }, 
+        "full_name": "Reto Berra", 
+        "last": {
+            "adds": 14, 
+            "date": {
+                "day": 2, 
+                "hour": 2, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 36
+        }
+    }, 
+    "R. Ellis": {
+        "appearances": 79, 
+        "averages": {
+            "adds": 10.379746835443038, 
+            "drops": 1.481012658227848
+        }, 
+        "full_name": "Ryan Ellis", 
+        "last": {
+            "adds": 25, 
+            "date": {
+                "day": 29, 
+                "hour": 18, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 54
+        }
+    }, 
+    "R. Fabbri": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Robby Fabbri", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 20, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "R. Getzlaf": {
+        "appearances": 39, 
+        "averages": {
+            "adds": 0.05128205128205128, 
+            "drops": 0.10256410256410256
+        }, 
+        "full_name": "Ryan Getzlaf", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 1, 
+                "hour": 7, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "R. Gudas": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": -2.0
+        }, 
+        "full_name": "Radko Gudas", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "R. Johansen": {
+        "appearances": 14, 
+        "averages": {
+            "adds": 4.142857142857143, 
+            "drops": 0.35714285714285715
+        }, 
+        "full_name": "Ryan Johansen", 
+        "last": {
+            "adds": 9, 
+            "date": {
+                "day": 15, 
+                "hour": 4, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "R. Josi": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Roman Josi", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "R. Kesler": {
+        "appearances": 631, 
+        "averages": {
+            "adds": 6.193343898573697, 
+            "drops": 0.6038034865293188
+        }, 
+        "full_name": "Ryan Kesler", 
+        "last": {
+            "adds": 250, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 28
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "R. Lehner": {
+        "appearances": 342, 
+        "averages": {
+            "adds": 9.956140350877178, 
+            "drops": 2.953216374269004
+        }, 
+        "full_name": "Robin Lehner", 
+        "last": {
+            "adds": 47, 
+            "date": {
+                "day": 2, 
+                "hour": 8, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 15, 
+                "hour": 17, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "R. Luongo": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Roberto Luongo", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 30, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "R. Miller": {
+        "appearances": 41, 
+        "averages": {
+            "adds": 0.4146341463414634, 
+            "drops": 2.8780487804878043
+        }, 
+        "full_name": "Ryan Miller", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "R. Murray": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Ryan Murray", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "R. Nash": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Rick Nash", 
+        "last": {
+            "adds": 13, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "R. Nugent-Hopkins": {
+        "appearances": 281, 
+        "averages": {
+            "adds": 0.6049822064056942, 
+            "drops": 24.964412811387906
+        }, 
+        "full_name": "Ryan Nugent-Hopkins", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 18
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 20, 
+                "hour": 8, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "R. O'Reilly": {
+        "appearances": 127, 
+        "averages": {
+            "adds": 0.3700787401574804, 
+            "drops": 0.84251968503937
+        }, 
+        "full_name": "Ryan O'Reilly", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 1, 
+                "hour": 6, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "R. Polak": {
+        "appearances": 6, 
+        "averages": {
+            "adds": -0.3333333333333333, 
+            "drops": 0.16666666666666666
+        }, 
+        "full_name": "Roman Polak", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "R. Rakell": {
+        "appearances": 2, 
+        "averages": {
+            "adds": -3.5, 
+            "drops": -1.0
+        }, 
+        "full_name": "Rickard Rakell", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "R. Ristolainen": {
+        "appearances": 387, 
+        "averages": {
+            "adds": 0.6950904392764852, 
+            "drops": 2.462532299741601
+        }, 
+        "full_name": "Rasmus Ristolainen", 
+        "last": {
+            "adds": 36, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 120
+        }
+    }, 
+    "R. Smith": {
+        "appearances": 64, 
+        "averages": {
+            "adds": 1.890625, 
+            "drops": 5.125
+        }, 
+        "full_name": "Reilly Smith", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 15, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "R. Spooner": {
+        "appearances": 1476, 
+        "averages": {
+            "adds": 10.451219512195129, 
+            "drops": 4.549457994579946
+        }, 
+        "full_name": "Ryan Spooner", 
+        "last": {
+            "adds": 218, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 124
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "R. Strome": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 1.0, 
+            "drops": -2.0
+        }, 
+        "full_name": "Ryan Strome", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "R. Suter": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Ryan Suter", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "R. Vrbata": {
+        "appearances": 28, 
+        "averages": {
+            "adds": 0.32142857142857145, 
+            "drops": 3.5
+        }, 
+        "full_name": "Radim Vrbata", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 1, 
+                "hour": 11, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 55
+        }
+    }, 
+    "S. Bennett": {
+        "appearances": 1157, 
+        "averages": {
+            "adds": 13.973206568712207, 
+            "drops": 4.464995678478829
+        }, 
+        "full_name": "Sam Bennett", 
+        "last": {
+            "adds": 43, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 198
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 8, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Bobrovsky": {
+        "appearances": 264, 
+        "averages": {
+            "adds": 0.40530303030303017, 
+            "drops": 15.765151515151508
+        }, 
+        "full_name": "Sergei Bobrovsky", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 23, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Couturier": {
+        "appearances": 400, 
+        "averages": {
+            "adds": 9.105, 
+            "drops": 8.417499999999995
+        }, 
+        "full_name": "Sean Couturier", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 101
+        }
+    }, 
+    "S. Crosby": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Sidney Crosby", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "S. Darling": {
+        "appearances": 251, 
+        "averages": {
+            "adds": 9.063745019920322, 
+            "drops": 9.000000000000004
+        }, 
+        "full_name": "Scott Darling", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 25, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 22, 
+                "hour": 14, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Despres": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Simon Despres", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "S. Doan": {
+        "appearances": 1479, 
+        "averages": {
+            "adds": 12.63218390804599, 
+            "drops": 4.620689655172415
+        }, 
+        "full_name": "Shane Doan", 
+        "last": {
+            "adds": 70, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 157
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 9, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Gostisbehere": {
+        "appearances": 973, 
+        "averages": {
+            "adds": 8.907502569373069, 
+            "drops": 1.7410071942446037
+        }, 
+        "full_name": "Shayne Gostisbehere", 
+        "last": {
+            "adds": 346, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 21
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 7, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Hartnell": {
+        "appearances": 38, 
+        "averages": {
+            "adds": 0.6052631578947368, 
+            "drops": 3.710526315789474
+        }, 
+        "full_name": "Scott Hartnell", 
+        "last": {
+            "adds": 24, 
+            "date": {
+                "day": 23, 
+                "hour": 5, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 16
+        }
+    }, 
+    "S. Jones": {
+        "appearances": 555, 
+        "averages": {
+            "adds": 6.628828828828833, 
+            "drops": 1.443243243243243
+        }, 
+        "full_name": "Seth Jones", 
+        "last": {
+            "adds": 125, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 43
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 11, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "S. Mason": {
+        "appearances": 37, 
+        "averages": {
+            "adds": 2.4864864864864864, 
+            "drops": 1.4054054054054053
+        }, 
+        "full_name": "Steve Mason", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 1, 
+                "hour": 9, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 27
+        }
+    }, 
+    "S. Monahan": {
+        "appearances": 102, 
+        "averages": {
+            "adds": 0.15686274509803924, 
+            "drops": 0.8627450980392154
+        }, 
+        "full_name": "Sean Monahan", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 2, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 14
+        }
+    }, 
+    "S. Reinhart": {
+        "appearances": 2, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": -1.0
+        }, 
+        "full_name": "Sam Reinhart", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "S. Theodore": {
+        "appearances": 78, 
+        "averages": {
+            "adds": 7.948717948717952, 
+            "drops": 2.9230769230769234
+        }, 
+        "full_name": "Shea Theodore", 
+        "last": {
+            "adds": 12, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 262
+        }
+    }, 
+    "S. Varlamov": {
+        "appearances": 168, 
+        "averages": {
+            "adds": 0.5357142857142857, 
+            "drops": 2.0119047619047623
+        }, 
+        "full_name": "Semyon Varlamov", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 2, 
+                "hour": 8, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 32
+        }
+    }, 
+    "S. Vatanen": {
+        "appearances": 9, 
+        "averages": {
+            "adds": 2.3333333333333335, 
+            "drops": 2.111111111111111
+        }, 
+        "full_name": "Sami Vatanen", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 2, 
+                "hour": 5, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 7
+        }
+    }, 
+    "T. Barrie": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 5.857142857142857, 
+            "drops": 0.5714285714285714
+        }, 
+        "full_name": "Tyson Barrie", 
+        "last": {
+            "adds": 45, 
+            "date": {
+                "day": 6, 
+                "hour": 5, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "T. Bozak": {
+        "appearances": 160, 
+        "averages": {
+            "adds": 2.5062500000000005, 
+            "drops": 4.868749999999998
+        }, 
+        "full_name": "Tyler Bozak", 
+        "last": {
+            "adds": 4, 
+            "date": {
+                "day": 31, 
+                "hour": 16, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 53
+        }
+    }, 
+    "T. Brodie": {
+        "appearances": 3, 
+        "averages": {
+            "adds": 2.6666666666666665, 
+            "drops": 3.3333333333333335
+        }, 
+        "full_name": "T.J. Brodie", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "T. Brouwer": {
+        "appearances": 58, 
+        "averages": {
+            "adds": 7.086206896551724, 
+            "drops": 1.9482758620689655
+        }, 
+        "full_name": "Troy Brouwer", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "T. Daley": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Trevor Daley", 
+        "last": {
+            "adds": 7, 
+            "date": {
+                "day": 25, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "T. Ennis": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Tyler Ennis", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "T. Greiss": {
+        "appearances": 848, 
+        "averages": {
+            "adds": 2.7252358490566007, 
+            "drops": 8.149764150943408
+        }, 
+        "full_name": "Thomas Greiss", 
+        "last": {
+            "adds": 24, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 148
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 22, 
+                "hour": 20, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "T. Hamonic": {
+        "appearances": 105, 
+        "averages": {
+            "adds": 1.4857142857142858, 
+            "drops": 10.428571428571427
+        }, 
+        "full_name": "Travis Hamonic", 
+        "last": {
+            "adds": 6, 
+            "date": {
+                "day": 25, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "T. Hertl": {
+        "appearances": 1103, 
+        "averages": {
+            "adds": 12.027198549410691, 
+            "drops": 2.9963735267452436
+        }, 
+        "full_name": "Tomas Hertl", 
+        "last": {
+            "adds": 251, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 55
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "T. Johnson": {
+        "appearances": 132, 
+        "averages": {
+            "adds": 0.6136363636363636, 
+            "drops": 1.3257575757575757
+        }, 
+        "full_name": "Tyler Johnson", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 2, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 4
+        }
+    }, 
+    "T. Krug": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Torey Krug", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 22, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "T. Myers": {
+        "appearances": 1326, 
+        "averages": {
+            "adds": 5.441930618401201, 
+            "drops": 7.159879336349928
+        }, 
+        "full_name": "Tyler Myers", 
+        "last": {
+            "adds": 48, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 140
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 27, 
+                "hour": 16, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "T. Oshie": {
+        "appearances": 5, 
+        "averages": {
+            "adds": 0.4, 
+            "drops": 0.8
+        }, 
+        "full_name": "T.J. Oshie", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 1, 
+                "hour": 3, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "T. Plekanec": {
+        "appearances": 535, 
+        "averages": {
+            "adds": 0.7682242990654206, 
+            "drops": 4.293457943925232
+        }, 
+        "full_name": "Tomas Plekanec", 
+        "last": {
+            "adds": 67, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 134
+        }, 
+        "last_notification": {
+            "action": "add", 
+            "date": {
+                "day": 2, 
+                "hour": 12, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "T. Purcell": {
+        "appearances": 278, 
+        "averages": {
+            "adds": 1.435251798561151, 
+            "drops": 6.345323741007194
+        }, 
+        "full_name": "Teddy Purcell", 
+        "last": {
+            "adds": 23, 
+            "date": {
+                "day": 20, 
+                "hour": 4, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 21
+        }
+    }, 
+    "T. Rask": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Tuukka Rask", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "T. Rieder": {
+        "appearances": 254, 
+        "averages": {
+            "adds": 4.759842519685039, 
+            "drops": 4.09448818897638
+        }, 
+        "full_name": "Tobias Rieder", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 26, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "T. Schaller": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Tim Schaller", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "T. Seguin": {
+        "appearances": 7, 
+        "averages": {
+            "adds": 0.14285714285714285, 
+            "drops": 0.0
+        }, 
+        "full_name": "Tyler Seguin", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 1, 
+                "hour": 5, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "T. Tatar": {
+        "appearances": 143, 
+        "averages": {
+            "adds": 0.4825174825174827, 
+            "drops": 3.902097902097902
+        }, 
+        "full_name": "Tomas Tatar", 
+        "last": {
+            "adds": 2, 
+            "date": {
+                "day": 1, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 8
+        }
+    }, 
+    "T. Teravainen": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": 6.0
+        }, 
+        "full_name": "Teuvo Teravainen", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 18, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 9
+        }
+    }, 
+    "T. Vanek": {
+        "appearances": 101, 
+        "averages": {
+            "adds": 0.40594059405940597, 
+            "drops": 3.0000000000000004
+        }, 
+        "full_name": "Thomas Vanek", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 8, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 21
+        }
+    }, 
+    "T. Wilson": {
+        "appearances": 360, 
+        "averages": {
+            "adds": 5.927777777777778, 
+            "drops": 2.436111111111112
+        }, 
+        "full_name": "Tom Wilson", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 2, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "T. Wingels": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Tommy Wingels", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 12, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 8
+        }
+    }, 
+    "T. Zajac": {
+        "appearances": 1, 
+        "averages": {
+            "adds": -2.0, 
+            "drops": 3.0
+        }, 
+        "full_name": "Travis Zajac", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 9, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 5
+        }
+    }, 
+    "V. Filppula": {
+        "appearances": 62, 
+        "averages": {
+            "adds": 8.580645161290326, 
+            "drops": 1.6774193548387097
+        }, 
+        "full_name": "Valtteri Filppula", 
+        "last": {
+            "adds": 0, 
+            "date": {
+                "day": 29, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 1
+        }
+    }, 
+    "V. Lecavalier": {
+        "appearances": 585, 
+        "averages": {
+            "adds": 17.528205128205148, 
+            "drops": 4.54700854700855
+        }, 
+        "full_name": "Vincent Lecavalier", 
+        "last": {
+            "adds": 13, 
+            "date": {
+                "day": 1, 
+                "hour": 10, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 30
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 28, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "V. Namestnikov": {
+        "appearances": 1246, 
+        "averages": {
+            "adds": 17.760032102728687, 
+            "drops": 5.745585874799359
+        }, 
+        "full_name": "Vladislav Namestnikov", 
+        "last": {
+            "adds": 87, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 301
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 2, 
+                "hour": 13, 
+                "minute": 59, 
+                "month": 2, 
+                "year": 2016
+            }
+        }
+    }, 
+    "V. Nichushkin": {
+        "appearances": 0, 
+        "averages": {
+            "adds": 0, 
+            "drops": 0
+        }, 
+        "full_name": "Valeri Nichushkin", 
+        "last": {
+            "adds": 8, 
+            "date": {
+                "day": 4, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "V. Rask": {
+        "appearances": 829, 
+        "averages": {
+            "adds": 3.7792521109770845, 
+            "drops": 5.753920386007236
+        }, 
+        "full_name": "Victor Rask", 
+        "last": {
+            "adds": 67, 
+            "date": {
+                "day": 2, 
+                "hour": 14, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 121
+        }, 
+        "last_notification": {
+            "action": "drop", 
+            "date": {
+                "day": 25, 
+                "hour": 8, 
+                "minute": 59, 
+                "month": 1, 
+                "year": 2016
+            }
+        }
+    }, 
+    "V. Tarasenko": {
+        "appearances": 10, 
+        "averages": {
+            "adds": 0.0, 
+            "drops": 0.0
+        }, 
+        "full_name": "Vladimir Tarasenko", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 1, 
+                "hour": 4, 
+                "minute": 19, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }, 
+    "V. Trocheck": {
+        "appearances": 81, 
+        "averages": {
+            "adds": 1.5555555555555558, 
+            "drops": 5.5679012345679
+        }, 
+        "full_name": "Vincent Trocheck", 
+        "last": {
+            "adds": 5, 
+            "date": {
+                "day": 19, 
+                "hour": 7, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 72
+        }
+    }, 
+    "W. Simmonds": {
+        "appearances": 117, 
+        "averages": {
+            "adds": 3.7521367521367526, 
+            "drops": 0.3333333333333333
+        }, 
+        "full_name": "Wayne Simmonds", 
+        "last": {
+            "adds": 14, 
+            "date": {
+                "day": 2, 
+                "hour": 6, 
+                "minute": 39, 
+                "month": 2, 
+                "year": 2016
+            }, 
+            "drops": 3
+        }
+    }, 
+    "Z. Chara": {
+        "appearances": 2, 
+        "averages": {
+            "adds": -0.5, 
+            "drops": 0.5
+        }, 
+        "full_name": "Zdeno Chara", 
+        "last": {
+            "adds": 1, 
+            "date": {
+                "day": 21, 
+                "hour": 3, 
+                "minute": 19, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 2
+        }
+    }, 
+    "Z. Parise": {
+        "appearances": 1, 
+        "averages": {
+            "adds": 2.0, 
+            "drops": -2.0
+        }, 
+        "full_name": "Zach Parise", 
+        "last": {
+            "adds": 3, 
+            "date": {
+                "day": 31, 
+                "hour": 3, 
+                "minute": 39, 
+                "month": 1, 
+                "year": 2016
+            }, 
+            "drops": 0
+        }
+    }
+}
