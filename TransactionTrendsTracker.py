@@ -11,6 +11,7 @@ import config, uuid
 import DateFormatter
 import NoteDatabase
 import PlayerInfo
+import LeagueMonitor
 # from pygoogle import pygoogle
 
 """
@@ -73,6 +74,7 @@ class TransactionTrendsTracker():
         self.note_database = NoteDatabase.NoteDatabase()
         self.notes_to_send = {}
         self.player = PlayerInfo.PlayerInfo()
+        self.league_monitor = LeagueMonitor.LeagueMonitor()
 
     def run(self):        
         
@@ -138,21 +140,18 @@ class TransactionTrendsTracker():
                 # from being sent out, as there must have been an initial notification.
                 # this just prevents continual emails
                 if (self.player.transation_suggestion != None):
-                    print "Processing player {}".format(player)
                     
-                    sent_notes = compare_notifications(previous_transactions[player], result[1])
+                    print "Processing player {}".format(player)
 
-                    if not sent_notes:
-                        
+                    if not self.duplicate_player_notes():                        
 
                         # print "Significant transactions with result: {}".format(result[1])
 
-                        player_notes = availability_notes(previous_transactions[player]\
-                            ["full_name"], result[1], new_transactions[player])
+                        player_notes = self.league_monitor.get_availability_notes(self.player)
 
                         to_change[player]["last_notification"] = {}
                         to_change[player]["last_notification"]["date"] = self.my_date.date_dict
-                        to_change[player]["last_notification"]["action"] = result[1]
+                        to_change[player]["last_notification"]["action"] = self.player.transation_suggestion
 
                         if player_notes:
 
@@ -188,17 +187,22 @@ class TransactionTrendsTracker():
     def player_already_exists(self, player_name):
         return player_name in self.previous_transactions
 
-    def combine_changes(self, ):
-        for player in to_change:
+    def combine_changes(self, changes, additions):
+        for player in changes:
             # print "Modifying player profiles"
-            new_json_file[player] = to_change[player]
+            new_json_file[player] = changes[player]
 
         # add the new transactino profiles
-        for player in to_add:
+        for player in additions:
             # print "Adding new players to transactions json"
-            new_json_file[player] = to_add[player]
+            new_json_file[player] = additions[player]
 
-    def compare_notifications(self, player_profile, decision):
+        return new_json_file
+
+    def duplicate_notes(self):
+
+        player_profile = self.previous_transactions[self.player.name]
+        decision = self.player.transation_suggestion
 
         print "Testing if previous notifications exist and meet qualifications"
 
@@ -228,93 +232,7 @@ class TransactionTrendsTracker():
 
         return result
 
-    def availability_notes(self, player_name, result, player_profile):
-
-        # determine the player's status in each league
-
-        availability = league_availability(player_name)
-        # print "Availability:\n"
-        # print_json(availability)
-        """
-        format:
-        {
-            <league name>: <"on team"/"available"/None>
-        }
-        """
-        # print "verdict: {}".format(result)
-
-        notes_to_send = {}
-
-        if ((result == "add") and ("available" in availability.values())) or \
-            ((result == "drop") and ("on team" in availability.values())):
-
-            # obtain the note for the player on rotoworld
-            notes_to_send["note"] = player_notes(player_name)
-
-            # the verdict
-            notes_to_send["verdict"] = result
-            notes_to_send["stats"] = {"adds": player_profile["adds"],"drops": player_profile["drops"]}
-            notes_to_send["leagues"] = {}
-
-            for league in config.CONFIG["leagues"]:
-                if ((result == "add") and (availability[league] == "available")):
-                    notes_to_send["leagues"][league] = config.CONFIG["leagues"][league]                                
-                elif ((result == "drop") and (availability[league] == "on team")):
-                    notes_to_send["leagues"][league] = config.CONFIG["leagues"][league]
-
-        return notes_to_send
-
-    def league_availability(self, player_name):
-
-        name_list = re.split(" ", player_name)
-        search_term = "+".join(name_list)
-
-        to_return = {}
-
-        #return {<league name>: <"on team"/"available"/None>}
-        for league in config.CONFIG["leagues"]:
-            # print "Finding player availability in {}".format(league)
-            search_link = config.CONFIG["leagues"][league] + "playersearch?&search=" + search_term
-            print search_link
-
-            r = requests.get(search_link)
-            soup = BeautifulSoup(r.content,'html.parser')
-            owner = soup.findAll("div",{"style": "text-overflow: ellipsis; overflow: hidden;"})
-            # for item in owner:
-            #     print item.prettify()
-
-            owner = str(owner[1].find(text=True))
-            
-            if owner == "FA":
-                to_return[league] = "available"
-            elif owner == config.CONFIG["teams"][league]:
-                to_return[league] = "on team"
-            else:
-                to_return[league] = None
-
-        return to_return
-
-    def player_notes(self, player_name):
-        # Obtain notes from player on rotoworld.com
-
-        # print "Searching for notes from rotoworld"
-
-        name_parts = re.split('\W+', player_name)
-        google_search = "http://www.google.com/search?start=0&num=1&q={}+site:rotoworld.com".format(
-            "+".join(name_parts))
-        r = requests.get(google_search)
-        soup = BeautifulSoup(r.content,'html.parser')
-        link = soup.find("h3",{"class":"r"})
-        hlink = link.find("a")["href"]
-        search_link = str(re.split("=",re.split("&",hlink)[0])[1])
-        r = requests.get(search_link)
-        soup = BeautifulSoup(r.content,'html.parser')
-        info = soup.find("div",{"class":"playernews"})
-        report = info.find("div",{"class":"report"})
-        impact = info.find("div",{"class":"impact"})
-        note = report.contents[0] + " " + impact.contents[0]
-
-        return note
+    
 
     def format_new_player_json(self, player):
         """
