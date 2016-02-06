@@ -12,6 +12,7 @@ import DateFormatter
 import NoteDatabase
 import PlayerInfo
 import LeagueMonitor
+import JSONTool
 # from pygoogle import pygoogle
 
 """
@@ -69,15 +70,18 @@ class TransactionTrendsTracker():
     def __init__(self):
         os.chdir('/home/{}/Dropbox/Code/Hockey/transaction_trends'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
         self.my_date = DateFormatter.DateFormatter()
-        self.new_transactions = self.transaction_players()
-        self.previous_transactions = self.load_json_file()
-        self.note_database = NoteDatabase.NoteDatabase()
-        self.notes_to_send = {}
-        self.player = PlayerInfo.PlayerInfo()
+        self.json_tool = JSONTool.JSONTool(config.CONFIG["misc"]["file_to_store"])
+        self.email_tool = EmailTool.EmailTool()
         self.league_monitor = LeagueMonitor.LeagueMonitor()
+        self.player = PlayerInfo.PlayerInfo()
+        self.note_database = NoteDatabase.NoteDatabase()
 
-    def run(self):        
-        
+        self.new_transactions = self.transaction_players()
+        self.previous_transactions = self.json_tool.read_file()
+
+        self.notes_to_send = {}        
+
+    def run(self):                
 
         if self.previous_transactions is None:
             # this means there was no previous json file
@@ -91,7 +95,7 @@ class TransactionTrendsTracker():
             json_to_write = self.obtain_modified_transactions_json()
 
         # print "Writing to json file"
-        self.write_json_file(json_to_write, config.CONFIG["misc"]["file_to_store"])
+        self.json_tool.write_file(json_to_write)
 
         if self.notes_to_send:
             # print "Actions recommended, sending email"
@@ -147,7 +151,8 @@ class TransactionTrendsTracker():
 
                         # print "Significant transactions with result: {}".format(result[1])
 
-                        player_notes = self.league_monitor.get_availability_notes(self.player)
+                        player_notes = self.league_monitor.get_availability_notes(self.player.name, 
+                            self.player.transation_suggestion)
 
                         to_change[player]["last_notification"] = {}
                         to_change[player]["last_notification"]["date"] = self.my_date.date_dict
@@ -199,7 +204,7 @@ class TransactionTrendsTracker():
 
         return new_json_file
 
-    def duplicate_notes(self):
+    def duplicate_player_notes(self):
 
         player_profile = self.previous_transactions[self.player.name]
         decision = self.player.transation_suggestion
@@ -230,9 +235,7 @@ class TransactionTrendsTracker():
             print_json(player_profile)
             
 
-        return result
-
-    
+        return result    
 
     def format_new_player_json(self, player):
         """
@@ -321,125 +324,6 @@ class TransactionTrendsTracker():
                 "player_page": name_link}
 
         return transactions_dict
-
-    def pare_transactions(self, transactions, percentage_threshold, number_threshold = 0):
-
-        important_transactions = []
-
-        for player in transactions:
-            total_transactions = float(player["adds"] + player["drops"])
-            if total_transactions < number_threshold:
-                continue
-
-            percentage = player["adds"]/total_transactions
-
-            if percentage > percentage_threshold:
-                player["decision"] = "add"
-            elif percentage < (1-percentage_threshold):
-                player["decision"] = "drop"
-            else:
-                continue
-
-            important_transactions.append(player)
-
-        return important_transactions
-
-    def send_email(self,notes_to_send):
-        print "Preparing email"
-        m = email.message.Message()
-        m['From'] = config.CONFIG["email"]["address"]
-        m['To'] = config.CONFIG["email"]["address"]
-        m['Subject'] = "Notable player transactions"
-
-        header = "Notes\n---------------------------------------\n"
-
-        my_payload = get_email_string(notes_to_send)
-
-        m.set_payload(my_payload)
-
-        try:
-            # print("trying host and port...")
-
-            smtpObj = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-            smtpObj.login("alfred.e.kenny@gmail.com", config.CONFIG["email"]["app_pw"])
-
-            # print("sending mail...")
-
-            smtpObj.sendmail(config.CONFIG["email"]["address"], 
-                config.CONFIG["email"]["address"], m.as_string())
-
-            # print("Succesfully sent email")
-
-        except smtplib.SMTPException:
-            print("Error: unable to send email")
-            import traceback
-            traceback.print_exc()
-
-    def get_email_string(self, notes):
-        """
-        notes format:
-        {
-            <player name>: {
-                "note": <player note>,
-                "verdict": <"add"/"drop">
-                "leagues": {
-                    <league name>: <link>,
-                    <league name>: <link>
-                }
-            }
-        }
-        """
-
-        # print "Formulating email"
-
-
-
-        email_string = []
-
-        for player in notes:
-
-            print_json(notes[player])
-            
-
-            player_string = []
-            # print player
-            # print_json(notes[player])
-            player_string.append("\n\nRecommendation for {}:\n\n".format(player)) 
-            player_string.append("Today's stats:\nAdds: {0}, Drops: {1}\n".format(notes[player]["stats"]["adds"],
-                notes[player]["stats"]["drops"]))   
-            player_string.append("Action: {}\n\n".format(notes[player]["verdict"]))
-
-            leagues = []
-            for league in notes[player]["leagues"]:
-                leagues.append("{0}: {1}".format(league,notes[player]["leagues"][league]))
-
-            player_string.append("Leagues:\n{}\n".format("\n".join(leagues)))
-            player_string.append("Rotowire notes:\n{}\n\n".format(notes[player]["note"]))
-
-            email_string.append("".join(player_string))
-
-        return "------------------------------------------------".join(email_string)
-
-
-    def print_json(self, json_object):
-        print json.dumps(json_object, indent=4, sort_keys=True) 
-        print "\n"
-
-    def load_json_file(self, file_name):
-
-        data = None
-
-        try:
-            with open(file_name) as data_file:
-                    data = json.load(data_file)
-        except:
-            pass
-
-        return data
-
-    def write_json_file(self, transactions_dict, file_name):
-        with open(file_name,'w') as outfile:
-            json.dump(transactions_dict, outfile, indent=4, sort_keys=True)
 
 if __name__ == "__main__":
 

@@ -8,11 +8,11 @@ class LeagueMonitor():
         self.leagues = config.CONFIG["leagues"]
         self.note_taker = NoteTaker.NoteTaker()
 
-    def get_availability_notes(self, player_object):
+    def get_availability_notes(self, player_name, player_suggestion):
 
         # determine the player's status in each league
 
-        availability = self.get_league_availability(player_object.name)
+        availability = self.get_league_availability(player_name)
         # print "Availability:\n"
         # print_json(availability)
         """
@@ -25,8 +25,7 @@ class LeagueMonitor():
 
         notes_to_send = {}
 
-        if ((result == "add") and ("available" in availability.values())) or \
-            ((result == "drop") and ("on team" in availability.values())):
+        if self.change_suggested(availability, player_suggestion):
 
             # obtain the note for the player on rotoworld
             notes_to_send["note"] = self.note_taker.get_player_notes(player_object.name)
@@ -74,3 +73,9 @@ class LeagueMonitor():
                 to_return[league] = None
 
         return to_return
+
+    def change_suggested(self, availability, suggestion):
+        should_add = (suggestion == "add") and ("available" in availability.values())
+        should_drop = (suggestion == "drop") and ("on team" in availability.values())
+
+        return (should_add or should_drop)
