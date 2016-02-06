@@ -8,7 +8,7 @@ class JSONTool():
 	    print json.dumps(json_object, indent=4, sort_keys=True) 
 	    print "\n"
 
-	def load_file(self):
+	def read_file(self):
 
 	    data = None
 

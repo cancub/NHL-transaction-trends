@@ -9,10 +9,11 @@ import pytz
 from datetime import date
 import config, uuid
 import DateFormatter
-import NoteDatabase
+# import NoteDatabase
 import PlayerInfo
 import LeagueMonitor
 import JSONTool
+import EmailTool
 # from pygoogle import pygoogle
 
 """
@@ -68,13 +69,13 @@ no_transactions_string = "Transaction Trend data will be available once player t
 class TransactionTrendsTracker():
 
     def __init__(self):
-        os.chdir('/home/{}/Dropbox/Code/Hockey/transaction_trends'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
+        os.chdir('/home/{}/Dropbox/Code/Hockey/Transaction_trends/Development'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
         self.my_date = DateFormatter.DateFormatter()
         self.json_tool = JSONTool.JSONTool(config.CONFIG["misc"]["file_to_store"])
         self.email_tool = EmailTool.EmailTool()
         self.league_monitor = LeagueMonitor.LeagueMonitor()
         self.player = PlayerInfo.PlayerInfo()
-        self.note_database = NoteDatabase.NoteDatabase()
+        # self.note_database = NoteDatabase.NoteDatabase()
 
         self.new_transactions = self.transaction_players()
         self.previous_transactions = self.json_tool.read_file()
@@ -114,7 +115,7 @@ class TransactionTrendsTracker():
     def obtain_modified_transactions_json(self):
         # print "Copying previous json"
         # copy the previous transactions to prepare the dictoinary to return
-        transaction_json_draft = copy_dictionary(self.previous_transactions)
+        transaction_json_draft = self.copy_dictionary(self.previous_transactions)
 
         # the new player profiles
         to_add = {}
@@ -182,7 +183,7 @@ class TransactionTrendsTracker():
 
         return final_json
 
-    def copy_dictionary(old_dict):
+    def copy_dictionary(self, old_dict):
         new_dict = {}
         for item in old_dict:
             new_dict[item] = old_dict[item]
@@ -255,7 +256,7 @@ class TransactionTrendsTracker():
         """
 
         player_json = {}
-        player_json["full_name"] = full_name(player["player_page"])
+        player_json["full_name"] = self.full_name(player["player_page"])
         player_json["appearances"] = 0
         # we can't have any averages yet since this is the first time
         # seeing this player
@@ -327,6 +328,6 @@ class TransactionTrendsTracker():
 
 if __name__ == "__main__":
 
-    os.chdir('/home/{}/Dropbox/Code/Hockey/transaction_trends'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
-    tracker = TransactionTrendTracker()
+    os.chdir('/home/{}/Dropbox/Code/Hockey/Transaction_trends/Development'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
+    tracker = TransactionTrendsTracker()
     tracker.run()
