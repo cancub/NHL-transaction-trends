@@ -6,15 +6,15 @@
             "drops": 0
         }, 
         "full_name": "Andre Burakovsky", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 277, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 291, 
             "drops": 10
         }
     }, 
@@ -25,16 +25,16 @@
             "drops": 0
         }, 
         "full_name": "Alec Martinez", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 204, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 111
+            "adds": 205, 
+            "drops": 112
         }
     }, 
     "A. Sekera": {
@@ -44,16 +44,16 @@
             "drops": 0
         }, 
         "full_name": "Andrej Sekera", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 235, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 22
+            "drops": 23
         }
     }, 
     "B. Nelson": {
@@ -63,16 +63,16 @@
             "drops": 0
         }, 
         "full_name": "Brock Nelson", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 256, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 26
+            "adds": 261, 
+            "drops": 30
         }
     }, 
     "B. Pouliot": {
@@ -82,16 +82,16 @@
             "drops": 0
         }, 
         "full_name": "Benoit Pouliot", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 612, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 18
+            "adds": 622, 
+            "drops": 20
         }
     }, 
     "B. Schenn": {
@@ -101,15 +101,15 @@
             "drops": 0
         }, 
         "full_name": "Brayden Schenn", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 296, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 306, 
             "drops": 20
         }
     }, 
@@ -120,15 +120,15 @@
             "drops": 0
         }, 
         "full_name": "Ben Scrivens", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 218, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 226, 
             "drops": 48
         }
     }, 
@@ -139,16 +139,16 @@
             "drops": 0
         }, 
         "full_name": "Connor Hellebuyck", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 26, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 764
+            "adds": 27, 
+            "drops": 780
         }
     }, 
     "C. Kunitz": {
@@ -158,15 +158,15 @@
             "drops": 0
         }, 
         "full_name": "Chris Kunitz", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 229, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 236, 
             "drops": 51
         }
     }, 
@@ -177,16 +177,16 @@
             "drops": 0
         }, 
         "full_name": "Colton Parayko", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 35, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 222
+            "drops": 227
         }
     }, 
     "C. Soderberg": {
@@ -196,16 +196,16 @@
             "drops": 0
         }, 
         "full_name": "Carl Soderberg", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 271, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 48
+            "adds": 280, 
+            "drops": 51
         }
     }, 
     "C. Talbot": {
@@ -215,16 +215,16 @@
             "drops": 0
         }, 
         "full_name": "Cam Talbot", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 439, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 35
+            "adds": 454, 
+            "drops": 38
         }
     }, 
     "C. Ward": {
@@ -234,16 +234,16 @@
             "drops": 0
         }, 
         "full_name": "Cam Ward", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 300, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 86
+            "adds": 312, 
+            "drops": 87
         }
     }, 
     "D. Perron": {
@@ -253,16 +253,16 @@
             "drops": 0
         }, 
         "full_name": "David Perron", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 547, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 237
+            "adds": 557, 
+            "drops": 241
         }
     }, 
     "D. Wideman": {
@@ -272,16 +272,16 @@
             "drops": 0
         }, 
         "full_name": "Dennis Wideman", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 4, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 326
+            "drops": 333
         }
     }, 
     "E. Lack": {
@@ -291,16 +291,16 @@
             "drops": 0
         }, 
         "full_name": "Eddie Lack", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 73, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 341
+            "adds": 77, 
+            "drops": 350
         }
     }, 
     "F. Andersen": {
@@ -310,16 +310,16 @@
             "drops": 0
         }, 
         "full_name": "Frederik Andersen", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 650, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 106
+            "adds": 671, 
+            "drops": 108
         }
     }, 
     "H. Lindholm": {
@@ -329,16 +329,16 @@
             "drops": 0
         }, 
         "full_name": "Hampus Lindholm", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 500, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 60
+            "adds": 515, 
+            "drops": 62
         }
     }, 
     "J. Boychuk": {
@@ -348,16 +348,16 @@
             "drops": 0
         }, 
         "full_name": "Johnny Boychuk", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 231, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 126
+            "adds": 241, 
+            "drops": 134
         }
     }, 
     "J. Eberle": {
@@ -367,15 +367,15 @@
             "drops": 0
         }, 
         "full_name": "Jordan Eberle", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 295, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 300, 
             "drops": 10
         }
     }, 
@@ -386,16 +386,16 @@
             "drops": 0
         }, 
         "full_name": "Jussi Jokinen", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 374, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 35
+            "adds": 378, 
+            "drops": 37
         }
     }, 
     "J. Korpisalo": {
@@ -405,16 +405,16 @@
             "drops": 0
         }, 
         "full_name": "Joonas Korpisalo", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 724, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 50
+            "adds": 748, 
+            "drops": 52
         }
     }, 
     "J. Miller": {
@@ -424,16 +424,16 @@
             "drops": 0
         }, 
         "full_name": "J.T. Miller", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 350, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 22
+            "adds": 356, 
+            "drops": 24
         }
     }, 
     "J. Reimer": {
@@ -443,15 +443,15 @@
             "drops": 0
         }, 
         "full_name": "James Reimer", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 225, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 227, 
             "drops": 52
         }
     }, 
@@ -462,16 +462,16 @@
             "drops": 0
         }, 
         "full_name": "Jakob Silfverberg", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 43, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 241
+            "adds": 44, 
+            "drops": 252
         }
     }, 
     "J. Spezza": {
@@ -481,16 +481,16 @@
             "drops": 0
         }, 
         "full_name": "Jason Spezza", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 6, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 229
+            "drops": 237
         }
     }, 
     "J. Staal": {
@@ -500,16 +500,16 @@
             "drops": 0
         }, 
         "full_name": "Jordan Staal", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 991, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 53
+            "adds": 1037, 
+            "drops": 54
         }
     }, 
     "J. Williams": {
@@ -519,16 +519,16 @@
             "drops": 0
         }, 
         "full_name": "Justin Williams", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 128, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 179
+            "adds": 129, 
+            "drops": 181
         }
     }, 
     "K. Palmieri": {
@@ -538,16 +538,16 @@
             "drops": 0
         }, 
         "full_name": "Kyle Palmieri", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 37, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 222
+            "adds": 38, 
+            "drops": 225
         }
     }, 
     "K. Ramo": {
@@ -557,16 +557,16 @@
             "drops": 0
         }, 
         "full_name": "Karri Ramo", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 91, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 202
+            "adds": 94, 
+            "drops": 205
         }
     }, 
     "K. Versteeg": {
@@ -576,16 +576,16 @@
             "drops": 0
         }, 
         "full_name": "Kris Versteeg", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 47, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 214
+            "adds": 49, 
+            "drops": 216
         }
     }, 
     "L. Domingue": {
@@ -595,16 +595,16 @@
             "drops": 0
         }, 
         "full_name": "Louis Domingue", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 23, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 642
+            "drops": 658
         }
     }, 
     "M. Boedker": {
@@ -614,16 +614,16 @@
             "drops": 0
         }, 
         "full_name": "Mikkel Boedker", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 16, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 246
+            "drops": 253
         }
     }, 
     "M. Condon": {
@@ -633,16 +633,16 @@
             "drops": 0
         }, 
         "full_name": "Mike Condon", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 83, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 219
+            "adds": 86, 
+            "drops": 225
         }
     }, 
     "M. Johansson": {
@@ -652,16 +652,16 @@
             "drops": 0
         }, 
         "full_name": "Marcus Johansson", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 13, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 460
+            "drops": 466
         }
     }, 
     "M. Stone": {
@@ -671,16 +671,16 @@
             "drops": 0
         }, 
         "full_name": "Michael Stone", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 15, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 234
+            "drops": 235
         }
     }, 
     "M. Vlasic": {
@@ -690,16 +690,16 @@
             "drops": 0
         }, 
         "full_name": "Marc-Edouard Vlasic", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 257, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 75
+            "adds": 263, 
+            "drops": 81
         }
     }, 
     "R. Kesler": {
@@ -709,16 +709,16 @@
             "drops": 0
         }, 
         "full_name": "Ryan Kesler", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 263, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 43
+            "adds": 268, 
+            "drops": 45
         }
     }, 
     "S. Bennett": {
@@ -728,16 +728,16 @@
             "drops": 0
         }, 
         "full_name": "Sam Bennett", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 14, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 580
+            "drops": 593
         }
     }, 
     "S. Doan": {
@@ -747,16 +747,16 @@
             "drops": 0
         }, 
         "full_name": "Shane Doan", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 237, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 99
+            "adds": 240, 
+            "drops": 103
         }
     }, 
     "S. Gostisbehere": {
@@ -766,15 +766,15 @@
             "drops": 0
         }, 
         "full_name": "Shayne Gostisbehere", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 297, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 339, 
             "drops": 20
         }
     }, 
@@ -785,16 +785,16 @@
             "drops": 0
         }, 
         "full_name": "Thomas Greiss", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 109, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 227
+            "adds": 115, 
+            "drops": 249
         }
     }, 
     "T. Hertl": {
@@ -804,16 +804,16 @@
             "drops": 0
         }, 
         "full_name": "Tomas Hertl", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 108, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 157
+            "adds": 112, 
+            "drops": 163
         }
     }, 
     "T. Johnson": {
@@ -823,16 +823,16 @@
             "drops": 0
         }, 
         "full_name": "Tyler Johnson", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 277, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 29
+            "adds": 287, 
+            "drops": 30
         }
     }, 
     "T. Myers": {
@@ -842,16 +842,16 @@
             "drops": 0
         }, 
         "full_name": "Tyler Myers", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 14, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 286
+            "adds": 15, 
+            "drops": 296
         }
     }, 
     "T. Plekanec": {
@@ -861,16 +861,16 @@
             "drops": 0
         }, 
         "full_name": "Tomas Plekanec", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 72, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 221
+            "adds": 73, 
+            "drops": 223
         }
     }, 
     "T. Vanek": {
@@ -880,16 +880,16 @@
             "drops": 0
         }, 
         "full_name": "Thomas Vanek", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 10, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 275
+            "adds": 11, 
+            "drops": 283
         }
     }, 
     "V. Namestnikov": {
@@ -899,16 +899,16 @@
             "drops": 0
         }, 
         "full_name": "Vladislav Namestnikov", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
             "adds": 28, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
-            "drops": 610
+            "drops": 626
         }
     }, 
     "V. Trocheck": {
@@ -918,15 +918,15 @@
             "drops": 0
         }, 
         "full_name": "Vincent Trocheck", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 2143, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 2209, 
             "drops": 45
         }
     }, 
@@ -937,15 +937,15 @@
             "drops": 0
         }, 
         "full_name": "Wayne Simmonds", 
+        "last_date": {
+            "day": 6, 
+            "hour": 15, 
+            "minute": 32, 
+            "month": 2, 
+            "year": 2016
+        }, 
         "total": {
-            "adds": 284, 
-            "date": {
-                "day": 6, 
-                "hour": 15, 
-                "minute": 14, 
-                "month": 2, 
-                "year": 2016
-            }, 
+            "adds": 291, 
             "drops": 10
         }
     }

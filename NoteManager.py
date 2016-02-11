@@ -1,8 +1,9 @@
 
-class NoteTaker():
+class NoteManager():
 
 	def __init__(self):
 		self.site = "rotoworld.com"
+		self.notes_on_hold = []
 
 	def get_player_notes(self, player_name):
 	    # Obtain notes from player on rotoworld.com
@@ -25,3 +26,6 @@ class NoteTaker():
 	    note = report.contents[0] + " " + impact.contents[0]
 
 	    return note
+
+	def store_note(self,note):
+		self.notes_on_hold.append(note)

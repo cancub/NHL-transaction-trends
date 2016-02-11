@@ -14,7 +14,7 @@ class PlayerInfo():
     def __init__(self):
         self.todays_date = DateFormatter.DateFormatter()
 
-    def load_player(self, historical_player_json, recent_info_json):
+    def load_player(self, historical_player_json, todays_info_json):
         """
         format of historical_player_json:
         {
@@ -25,18 +25,18 @@ class PlayerInfo():
                 "drops": <average drops in interval>
             },
             "recent": {
-                "date": {
-                    "year": <year of last review>,
-                    "month": <month of last review>,
-                    "day": <day of last review>
-                },
                 "adds": <number of adds in last period reviewed>,
                 "drops": <number of drops in last period reviewed>
             },
             "total": {
                 "adds": <overall number of adds today>, 
                 "drops": <overall number of drops today>
-            }
+            },
+            "last_date": {
+                "year": <year of last review>,
+                "month": <month of last review>,
+                "day": <day of last review>
+            },
         }
 
         format of recent_info_json:
@@ -49,10 +49,10 @@ class PlayerInfo():
         self.name = historical_player_json["full_name"]
         self.appearances = historical_player_json["appearances"]
         self.averages = historical_player_json["averages"]
-        self.last_date_dict = historical_player_json["recent"]["date"]
+        self.last_date_dict = historical_player_json["last_date"]
         self.old_daily_totals = historical_player_json["total"]
 
-        self.new_daily_totals = recent_info_json
+        self.new_daily_totals = todays_info_json
 
         self.transaction_suggestion = None
         self.stats_over_last_interval = {}
@@ -81,12 +81,14 @@ class PlayerInfo():
 
             if self.enough_appearances() and self.significant_transactions_occured():
 
+                print "\tPlayer has made enough appearances and has significant transactions"
+
                 self.get_increased_transaction_suggestion()
 
             if self.no_suggestion() and self.enough_transactions_occured():
                 # this allows control for a newer player who had an inordinately high
                 # number of adds/drops in their first few entries, skewing the average
-
+                print "\tPlayer has had enough transactions for a closer look"
                 self.get_percentage_transaction_suggestion()
 
             # calculate new averages
@@ -100,7 +102,7 @@ class PlayerInfo():
             self.final_update = self.return_minor_update()
 
     def large_polling_gap(self):
-        return time_difference(self.todays_date.date_dict, self.last_date_dict, "minutes") > 30
+        return self.todays_date.time_difference(self.last_date_dict, "minutes") > 30
 
     def do_nothing(self):
         # average_adds = previous_player_stats["averages"]["adds"]
@@ -170,7 +172,7 @@ class PlayerInfo():
     def return_major_update(self):
         self.appearances += 1
         update = self.return_minor_update()
-        update["recent"] = {"date": self.todays_date.date_dict, "adds": self.stats_over_last_interval["adds"],
+        update["recent"] = {"adds": self.stats_over_last_interval["adds"],
             "drops": self.stats_over_last_interval["drops"]}
 
         return update
@@ -182,6 +184,7 @@ class PlayerInfo():
         update["appearances"] = self.appearances
         update["averages"] = {"adds": self.averages["adds"], "drops": self.averages["adds"]}
         update["total"] = {"adds": self.new_daily_totals["adds"], "drops": self.new_daily_totals["drops"]}
+        update["last_date"] = self.todays_date.date_dict
 
         return update
 

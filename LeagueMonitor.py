@@ -1,12 +1,12 @@
 import config
 import PlayerInfo
-import NoteTaker
+import NoteManager
 
 class LeagueMonitor():
 
     def __init__(self):
         self.leagues = config.CONFIG["leagues"]
-        self.note_taker = NoteTaker.NoteTaker()
+        self.note_taker = NoteManager.NoteManager()
 
     def get_availability_notes(self, player_name, player_suggestion):
 
