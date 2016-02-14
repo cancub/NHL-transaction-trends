@@ -46,25 +46,38 @@ the email paylod
 json file format
 
 {
+    ...,
     <player name>: {
-        "full_name": <full name>
+        "full_name": <player's full name>
         "appearances": <total number of appearances on list>,
         "averages": {
             "adds": <average adds in interval>,
             "drops": <average drops in interval>
-            },
-        "last": {
-            "day": <day of last poll>
-            "adds": <last number of adds from poll>
-            "drops": <last number of drops from poll>
-            }
+        },
+        "recent": {
+            "adds": <number of adds in last period reviewed>,
+            "drops": <number of drops in last period reviewed>
+        },
+        "total": {
+            "adds": <overall number of adds today>, 
+            "drops": <overall number of drops today>
+        },
+        "last_date": {
+            "year": <year of last review>,
+            "month": <month of last review>,
+            "day": <day of last review>
         }
-    } 
+    },
+    ...
 }
 
 """
 
 verbose = True
+
+def verbose_print(statement):
+    if verbose:
+        print "{}\n".format(statement)
 
 class TransactionTrendsTracker():
 
@@ -77,33 +90,69 @@ class TransactionTrendsTracker():
         self.player = PlayerInfo.PlayerInfo()
         self.note_manager = NoteManager.NoteManager()
 
-        self.new_transactions = self.transaction_players()
-        self.transactions_json = self.json_tool.read_file()
+        self.transactions_json = None
+        self.new_transactions = None
 
-        self.notes_to_send = {}   
         self.notes_on_hold = {}  
 
         self.pending_player_changes = {}
         self.pending_player_additions = {}  
 
-    def run(self):                
+        self.next_sample_time = None
+
+    def run(self): 
+
+        self.load_transactions_json()
 
         if self.transactions_json is None:
             # this means there was no previous json file
+            self.next_sample_time = datetime.datetime.now() + datetime.timedelta(minutes = 20)
             self.create_new_transactions_json()
-        else:            
+            self.json_tool.write_file({"date_dict": self.my_date.date_dict, "players":self.transactions_json})
+
+        while True:
+
+            self.sleep_until_next_polling_time()
+
+            self.pull_new_transactions()
+
             self.obtain_modified_transactions_json()
 
-        # print "Writing to json file"
-        self.json_tool.write_file(self.transactions_json)
+            if self.new_player_notes_exist():
+                verbose_print("Actions recommended, sending email")
+                # modify notes_on_hold to contain the notes and league availability
+                self.prepare_notes_to_send()
+                # change the date dictionary for the last update on each player in transactions_json
+                self.update_json_timestamps()
+                summary = self.obtain_notes_summary()
+                self.email_tool.send_email(summary)
 
-        if self.notes_to_send:
-            # print "Actions recommended, sending email"
-            self.send_email(self.notes_to_send)
+            # should change this to a database
+            verbose_print("Writing modified transactions to json file")
+            self.json_tool.write_file({"date_dict": self.my_date.date_dict, "players":self.transactions_json})
+
+            self.clear_session_information()
+
+    def load_transactions_json(self):
+        my_json = self.json_tool.read_file()
+
+
+        if my_json:            
+            date_dict = my_json["date_dict"]
+            self.transactions_json = my_json["players"]
+            self.next_sample_time = datetime.datetime(date_dict["year"],
+                date_dict["month"],
+                date_dict["day"], 
+                date_dict["hour"],
+                date_dict["minute"]) + datetime.timedelta(minutes = 20)
+        else:
+            self.next_sample_time = None
+            self.transactions_json = None
 
     def create_new_transactions_json(self):
 
         print "No existing json. Creating json file"
+        self.pull_new_transactions()
         self.transactions_json = {}
         count = 1
         total = len(self.new_transactions)
@@ -113,6 +162,60 @@ class TransactionTrendsTracker():
             verbose_print("Working on player {0} of {1}: {2}".format(count, total, player))
             self.transactions_json[player] = self.format_new_player_json(self.new_transactions[player])
             count += 1
+
+    def sleep_until_next_polling_time(self):
+
+        if self.next_sample_time and (self.next_sample_time > datetime.datetime.now()):
+            # sleep for the difference in seconds between then and now
+            time_difference = self.next_sample_time - datetime.datetime.now()
+            verbose_print("Sleeping until {0}:{1}".format(self.next_sample_time.hour,
+                self.next_sample_time.minute))
+            time.sleep(time_difference.seconds)
+            self.next_sample_time = self.next_sample_time + datetime.timedelta(minutes=20)
+        else:
+            self.next_sample_time = datetime.datetime.now() + datetime.timedelta(minutes=20)
+
+
+    def pull_new_transactions(self):
+        # obtain webpage for yahoo transactions
+        verbose_print("Finding today's transactions from Yahoo")
+
+        no_transactions_string = "Transaction Trend data will be available once player transactions begin."
+
+        r = requests.get(config.CONFIG["misc"]["website_prototype"] + self.my_date.formatted_date)
+
+        # find all players in webpage
+        soup = BeautifulSoup(r.content,'html.parser')
+        table = soup.find("table",{"class": "Tst-table Table"}).tbody
+        player_blocks = table.findAll('tr')
+
+        # where we will hold all the players in the dictionary to return
+        self.new_transactions = {}
+
+        for block in player_blocks:
+            # we just need:
+            # 1) name for referencing on different sites
+            # 2) drops for seeing if we should move the player
+            # 3) adds for seeing if we should get the player
+
+            # the full html link
+            if str(block.find(text=True)) == no_transactions_string:
+                print "No transactions yet today"
+                sys.exit(1)
+
+            html_link = block.findAll('a')[1]
+            # just the link string
+            name_link = html_link['href']
+
+            # find the contents of the player line
+            add_drop_info = block.findAll('td')
+            drops = int(add_drop_info[1].contents[0].contents[0])
+            adds = int(add_drop_info[2].contents[0].contents[0])
+
+            player_name = str(html_link.contents[0])
+
+            self.new_transactions[player_name] = {"drops":drops, "adds":adds, 
+                "player_page": name_link}
 
     def obtain_modified_transactions_json(self):
         # there are two possibilities here:
@@ -158,15 +261,12 @@ class TransactionTrendsTracker():
                     self.notes_on_hold[player] = self.player.transaction_suggestion
 
             else:
-                verbose_print("Creating profile for player {}".format(player))
+                verbose_print("\tCreating profile for player {}".format(player))
                 # create a new transaction profile for this player
                 # who will be added to the transactions json
                 self.pending_player_additions[player] = self.format_new_player_json(self.new_transactions[player])
 
             count += 1
-
-        if self.non_duplicate_player_notes():
-            self.prepare_notes_to_send()
 
         self.combine_changes()
 
@@ -191,39 +291,160 @@ class TransactionTrendsTracker():
             # print "Adding new players to transactions json"
             self.transactions_json[player] = self.pending_player_additions[player]
 
-    def duplicate_player_notes(self):
+    def obtain_notes_summary(self):
 
-        player_profile = self.transactions_json[self.player.name]
-        decision = self.player.transation_suggestion
+        """
+        notes_on_hold:
+        {
+            <player_name>: {
+                "verdict": <suggestion for player>
+                "note": <note from website>,
+                "leagues":{
+                    <league name>: <link>,
+                    ...
+                }
+            },
+            ...
+        }
 
-        verbose_print("Testing if previous notifications exist and meet qualifications")
+        json format:
+        {
+            ...,
+            <player name>: {
+                "full_name": <player's full name>
+                "appearances": <total number of appearances on list>,
+                "averages": {
+                    "adds": <average adds in interval>,
+                    "drops": <average drops in interval>
+                },
+                "recent": {
+                    "adds": <number of adds in last period reviewed>,
+                    "drops": <number of drops in last period reviewed>
+                },
+                "total": {
+                    "adds": <overall number of adds today>, 
+                    "drops": <overall number of drops today>
+                },
+                "last_date": {
+                    "year": <year of last review>,
+                    "month": <month of last review>,
+                    "day": <day of last review>
+                }
+            },
+            ...
+        }
+        """
 
+        # 
+
+        email_string = []
+
+        for player in self.notes_on_hold:
+
+            print_json(self.notes_on_hold[player])
+
+            notes_to_send["stats"] = self.transactions_json[player]["recent"]            
+
+            player_string = []
+            # print player
+            # print_json(notes[player])
+            player_string.append("\n\nRecommendation for {}:\n\n".format(player)) 
+            player_string.append("Today's stats:\nAdds: {0}, Drops: {1}\n".format(self.transactions_json[player]["total"]["adds"],
+                self.transactions_json[player]["total"]["drops"]))   
+            player_string.append("Action: {}\n\n".format(self.notes_on_hold[player]["verdict"]))
+
+            leagues = []
+            for league in self.notes_on_hold[player]["leagues"]:
+                leagues.append("{0}: {1}".format(league,self.notes_on_hold[player]["leagues"][league]))
+
+            player_string.append("Leagues:\n{}\n".format("\n".join(leagues)))
+            player_string.append("Rotowire notes:\n{}\n\n".format(self.notes_on_hold[player]["note"]))
+
+            email_string.append("".join(player_string))
+
+        return "------------------------------------------------".join(email_string)
+
+    def prepare_notes_to_send(self):
+
+        """
+        notes_on_hold should look like this following this function:
+        {
+            <player_name>: {
+                "note": <note from website>,
+                "leagues":{
+                    <league name>: <link>,
+                    ...
+                }
+            },
+            ...
+        }
+
+        """
+
+        for player in self.notes_on_hold:
+
+            verbose_print("Processing player {}".format(player))                  
+
+            player_notes = self.league_monitor.get_availability_notes(player, self.notes_on_hold[player])
+
+            if player_notes:
+                self.notes_on_hold[player] = player_notes
+            else:
+                del self.notes_on_hold[player]
+
+    def new_player_notes_exist(self):
+
+        # go through all the notes to see if there is one player who matches
+        # one of the following options:
+        #   - the haven't ever had a notification
+        #   - the previous notification was long ago
+        #   - the previous notification was different
         result = False
+        for player in self.notes_on_hold:
 
-        # this player has previously had a notification
-        if "last_notification" in player_profile:
-            verbose_print("1) There was a previous notification. Continuing")
+            player_profile = self.transactions_json[player]
+            decision = self.notes_on_hold[player]
 
-            hour_difference = self.my_date.time_difference(player_profile["last_notification"]["date"],
-                "hours")
-            # less than <mininum_hours> have passed since the last notification:
-            if  hour_difference < config.CONFIG["criteria"]["minimum_hours"]:
-                verbose_print("2) This notification was {0} hours ago, which is less than {1} hours. Continuing".format(\
-                    hour_difference,config.CONFIG["criteria"]["minimum_hours"]))
-                # the recommended action was the same as it is now
-                if player_profile["last_notification"]["action"] == decision:
-                    verbose_print("3) The last notification was the same as this notification. Do not send another email")
+            verbose_print("Testing if previous notifications exist and meet qualifications")
+
+
+            """
+            if there was no previous notification for this player
+                there is a new
+            """
+
+            if "last_notification" not in player_profile:
+                # this player has not previously had a notification
+                result = True
+                break
+            else:
+                hour_difference = self.my_date.time_difference(player_profile["last_notification"]["date"],
+                    "hours")
+                if hour_difference > config.CONFIG["criteria"]["minimum_hours"]:
+                    # more than <mininum_hours> have passed since the last notification:
                     result = True
+                    break
+                elif player_profile["last_notification"]["action"] != self.notes_on_hold[player]:
+                    # the recommended action was different that it is now                    
+                    result = True
+                    break
 
-        if not result and verbose:
-            print "current date dict:\n"
-            print_json(self.my_date.date_dict)
+            # if not result and verbose:
+            #     print "current date dict:\n"
+            #     print_json(self.my_date.date_dict)
 
-            print "\nplayer profile:\n"
-            print_json(player_profile)
+            #     print "\nplayer profile:\n"
+            #     print_json(player_profile)
             
 
-        return result    
+        return result
+
+    def update_json_timestamps(self):
+
+        for player in self.notes_on_hold:
+            self.transactions_json[player]["last_notification"] = {}
+            self.transactions_json[player]["last_notification"]["date"] = self.my_date.date_dict
+            self.transactions_json[player]["last_notification"]["action"] = self.notes_on_hold[player]
 
     def format_new_player_json(self, player):
         """
@@ -262,7 +483,7 @@ class TransactionTrendsTracker():
 
     def full_name(self, player_link):
 
-        verbose_print("Obtaining full name of player in link {}".format(player_link))
+        verbose_print("\tObtaining full name of player in link {}".format(player_link))
 
         # now we look for the full name in case we want to search
         # elsewhere on the internet for info
@@ -319,40 +540,13 @@ class TransactionTrendsTracker():
 
         return transactions_dict
 
-    def prepare_notes_to_send(self):
+    def clear_session_information(self):
+        self.new_transactions = None
 
-            # verbose_print("Processing player {}".format(player))
+        self.notes_on_hold = {}  
 
-            # # if I know that the notes have not been sent out recently
-            # # I can automatically send this note. Otherwise I store any potential notes
-            # # and send them if someone else has notes that are going to be sent
-            # if not self.duplicate_player_notes():                        
-
-            #     verbose_print("Significant transactions with result: {}".format(result[1]))
-
-            #     player_notes = self.league_monitor.get_availability_notes(self.player.name, 
-            #         self.player.transation_suggestion)
-
-            #     if player_notes:
-
-            #         to_change[player]["last_notification"] = {}
-            #         to_change[player]["last_notification"]["date"] = self.my_date.date_dict
-            #         to_change[player]["last_notification"]["action"] = self.player.transation_suggestion
-
-            #         # print "Transaction recommended"
-
-            #         self.notes_to_send[player] = player_notes
-
-            # else:
-            #     to_change[player]["last_notification"] = previous_transactions[player]["last_notification"]
-
-        # if ("last_notification" in self.transactions_json[player].keys()) and \
-        #     ("last_notification" not in to_change[player].keys()):
-        #     to_change[player]["last_notification"] = self.transactions_json[player]["last_notification"]
-
-def verbose_print(statement):
-    if verbose:
-        print "{}\n".format(statement)
+        self.pending_player_changes = {}
+        self.pending_player_additions = {}
 
 if __name__ == "__main__":
 

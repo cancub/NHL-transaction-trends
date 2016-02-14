@@ -1,3 +1,5 @@
+from bs4 import BeautifulSoup
+import re, requests
 import config
 import PlayerInfo
 import NoteManager
@@ -27,13 +29,12 @@ class LeagueMonitor():
 
         if self.change_suggested(availability, player_suggestion):
 
+            notes_to_send["verdict"] = player_suggestion
+
             # obtain the note for the player on rotoworld
-            notes_to_send["note"] = self.note_taker.get_player_notes(player_object.name)
+            notes_to_send["note"] = self.note_taker.get_player_notes(player_name)
 
             # the verdict
-            notes_to_send["verdict"] = player_object.transation_suggestion
-            notes_to_send["stats"] = {"adds": player_object.stats_over_last_interval["adds"],
-                "drops": player_object.stats_over_last_interval["drops"]}
             notes_to_send["leagues"] = {}
 
             for league in self.leagues:
