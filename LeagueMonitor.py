@@ -47,6 +47,8 @@ class LeagueMonitor():
 
     def get_league_availability(self, player_name):
 
+        print player_name
+
         name_list = re.split(" ", player_name)
         search_term = "+".join(name_list)
 

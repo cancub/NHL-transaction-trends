@@ -385,7 +385,8 @@ class TransactionTrendsTracker():
 
             verbose_print("Processing player {}".format(player))                  
 
-            player_notes = self.league_monitor.get_availability_notes(player, self.notes_on_hold[player])
+            player_notes = self.league_monitor.get_availability_notes(self.transactions_json[player]["full_name"], 
+                self.notes_on_hold[player])
 
             if player_notes:
                 self.notes_on_hold[player] = player_notes
