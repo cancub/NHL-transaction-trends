@@ -102,7 +102,7 @@ class PlayerInfo():
             self.final_update = self.return_minor_update()
 
     def large_polling_gap(self):
-        return self.todays_date.time_difference(self.last_date_dict, "minutes") > 30
+        return self.todays_date.time_difference(self.last_date_dict, "minutes") > config.CONFIG["criteria"]["maximum_gap"]
 
     def do_nothing(self):
         # average_adds = previous_player_stats["averages"]["adds"]
@@ -182,11 +182,14 @@ class PlayerInfo():
 
         update["full_name"] = self.name
         update["appearances"] = self.appearances
-        update["averages"] = {"adds": self.averages["adds"], "drops": self.averages["adds"]}
+        update["averages"] = {"adds": self.averages["adds"], "drops": self.averages["drops"]}
         update["total"] = {"adds": self.new_daily_totals["adds"], "drops": self.new_daily_totals["drops"]}
         update["last_date"] = self.todays_date.date_dict
 
         return update
+
+    def update_date(self):
+        self.todays_date.update()
 
 
 

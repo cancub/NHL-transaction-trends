@@ -1,9 +1,10 @@
+from bs4 import BeautifulSoup
+import re, requests, smtplib
 
 class NoteManager():
 
 	def __init__(self):
 		self.site = "rotoworld.com"
-		self.notes_on_hold = []
 
 	def get_player_notes(self, player_name):
 	    # Obtain notes from player on rotoworld.com
@@ -25,7 +26,7 @@ class NoteManager():
 	    impact = info.find("div",{"class":"impact"})
 	    note = report.contents[0] + " " + impact.contents[0]
 
-	    return note
+	    return self.clean_note(note)
 
-	def store_note(self,note):
-		self.notes_on_hold.append(note)
+	def clean_note(self,note):
+		return note.replace(u"\u2018", "'").replace(u"\u2019", "'").replace(u"\u2016","").replace(u"\u2026","...")

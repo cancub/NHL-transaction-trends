@@ -29,13 +29,23 @@ class DateFormatter():
 
         return "{0}-{1}-{2}".format(year,month,day)
 
-    def make_date_dict(self):
+    def make_date_dict(self, datetime_object = None):
 
-        year = self.date.year
-        month = self.date.month
-        day = self.date.day
-        hour = self.date.hour
-        minute = self.date.minute
+        if not datetime_object:
+
+            year = self.date.year
+            month = self.date.month
+            day = self.date.day
+            hour = self.date.hour
+            minute = self.date.minute
+
+        else:
+
+            year = datetime_object.year
+            month = datetime_object.month
+            day = datetime_object.day
+            hour = datetime_object.hour
+            minute = datetime_object.minute
 
 
         date_dict = {"day": day, "month": month, "year": year, "hour":hour, "minute": minute}
@@ -66,3 +76,6 @@ class DateFormatter():
             result = difference.days
 
         return result
+
+    def update(self):
+        self.__init__()

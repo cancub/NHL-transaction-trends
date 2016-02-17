@@ -100,13 +100,15 @@ class TransactionTrendsTracker():
 
         self.next_sample_time = None
 
+        self.rows , self.columns = os.popen('stty size', 'r').read().split()
+
     def run(self): 
 
         self.load_transactions_json()
 
         if self.transactions_json is None:
             # this means there was no previous json file
-            self.next_sample_time = datetime.datetime.now() + datetime.timedelta(minutes = 20)
+            self.update_next_sample_time()
             self.create_new_transactions_json()
             self.json_tool.write_file({"date_dict": self.my_date.date_dict, "players":self.transactions_json})
 
@@ -114,14 +116,19 @@ class TransactionTrendsTracker():
 
             self.sleep_until_next_polling_time()
 
+            self.update_date_objects()
+
             self.pull_new_transactions()
 
+            # print self.notes_on_hold
+
             self.obtain_modified_transactions_json()
+            self.prepare_notes_to_send()
 
             if self.new_player_notes_exist():
                 verbose_print("Actions recommended, sending email")
                 # modify notes_on_hold to contain the notes and league availability
-                self.prepare_notes_to_send()
+                # print self.notes_on_hold
                 # change the date dictionary for the last update on each player in transactions_json
                 self.update_json_timestamps()
                 summary = self.obtain_notes_summary()
@@ -129,7 +136,10 @@ class TransactionTrendsTracker():
 
             # should change this to a database
             verbose_print("Writing modified transactions to json file")
-            self.json_tool.write_file({"date_dict": self.my_date.date_dict, "players":self.transactions_json})
+            self.json_tool.print_json(self.my_date.date_dict)
+            self.json_tool.write_file({"date_dict": self.my_date.date_dict,"players":self.transactions_json})
+
+            self.update_next_sample_time()
 
             self.clear_session_information()
 
@@ -149,6 +159,9 @@ class TransactionTrendsTracker():
             self.next_sample_time = None
             self.transactions_json = None
 
+    def update_next_sample_time(self):
+        self.next_sample_time = self.my_date.date + datetime.timedelta(minutes = 20)
+
     def create_new_transactions_json(self):
 
         print "No existing json. Creating json file"
@@ -165,15 +178,21 @@ class TransactionTrendsTracker():
 
     def sleep_until_next_polling_time(self):
 
+        # verbose_print("next sample time: {0}:{1}".format(self.next_sample_time.hour,
+        #     self.next_sample_time.minute))
+
         if self.next_sample_time and (self.next_sample_time > datetime.datetime.now()):
             # sleep for the difference in seconds between then and now
             time_difference = self.next_sample_time - datetime.datetime.now()
-            verbose_print("Sleeping until {0}:{1}".format(self.next_sample_time.hour,
-                self.next_sample_time.minute))
+            verbose_print("Sleeping until {0}:{1}{2}".format(self.next_sample_time.hour,
+                "0" if self.next_sample_time.minute < 10 else "", self.next_sample_time.minute))
             time.sleep(time_difference.seconds)
-            self.next_sample_time = self.next_sample_time + datetime.timedelta(minutes=20)
-        else:
-            self.next_sample_time = datetime.datetime.now() + datetime.timedelta(minutes=20)
+            # print "{}\n".format("*"*self.columns)
+            verbose_print("Waking up")
+
+    def update_date_objects(self):
+        self.player.update_date()
+        self.my_date.update()
 
 
     def pull_new_transactions(self):
@@ -182,7 +201,9 @@ class TransactionTrendsTracker():
 
         no_transactions_string = "Transaction Trend data will be available once player transactions begin."
 
-        r = requests.get(config.CONFIG["misc"]["website_prototype"] + self.my_date.formatted_date)
+        site = config.CONFIG["misc"]["website_prototype"] + self.my_date.formatted_date
+        print site
+        r = requests.get(site)
 
         # find all players in webpage
         soup = BeautifulSoup(r.content,'html.parser')
@@ -284,8 +305,13 @@ class TransactionTrendsTracker():
         verbose_print("Combining changes to players and new additions")
         for player in self.pending_player_changes:
             # print "Modifying player profiles"
-            self.transactions_json[player] = self.pending_player_changes[player]
-
+            if "last_notification" in self.transactions_json[player].keys():
+                last_notification = self.transactions_json[player]["last_notification"]
+                self.transactions_json[player] = self.pending_player_changes[player]
+                self.transactions_json[player]["last_notification"] = last_notification
+            else:
+                self.transactions_json[player] = self.pending_player_changes[player]
+                
         # add the new transactino profiles
         for player in self.pending_player_additions:
             # print "Adding new players to transactions json"
@@ -297,7 +323,7 @@ class TransactionTrendsTracker():
         notes_on_hold:
         {
             <player_name>: {
-                "verdict": <suggestion for player>
+                "action": <suggestion for player>
                 "note": <note from website>,
                 "leagues":{
                     <league name>: <link>,
@@ -337,28 +363,31 @@ class TransactionTrendsTracker():
 
         # 
 
-        email_string = []
+        email_string = ["This digest contains {} players\n\n".format(len(self.notes_on_hold))]
 
         for player in self.notes_on_hold:
 
-            print_json(self.notes_on_hold[player])
+            # self.json_tool.print_json(self.notes_on_hold[player]) 
 
-            notes_to_send["stats"] = self.transactions_json[player]["recent"]            
+            player_stats = self.transactions_json[player]          
 
             player_string = []
             # print player
             # print_json(notes[player])
             player_string.append("\n\nRecommendation for {}:\n\n".format(player)) 
-            player_string.append("Today's stats:\nAdds: {0}, Drops: {1}\n".format(self.transactions_json[player]["total"]["adds"],
-                self.transactions_json[player]["total"]["drops"]))   
-            player_string.append("Action: {}\n\n".format(self.notes_on_hold[player]["verdict"]))
+            player_string.append("Stats:\n")
+            player_string.append("\t24h:\tAdds: {0}\tDrops: {1}\n".format(player_stats["total"]["adds"],
+                player_stats["total"]["drops"]))  
+            player_string.append("\t20m:\tAdds: {0}\tDrops: {1}\n".format(player_stats["recent"]["adds"],
+                player_stats["recent"]["drops"])) 
+            player_string.append("\nAction: {}\n".format(self.notes_on_hold[player]["action"]))
 
             leagues = []
             for league in self.notes_on_hold[player]["leagues"]:
-                leagues.append("{0}: {1}".format(league,self.notes_on_hold[player]["leagues"][league]))
+                leagues.append("\t{0}: {1}playersearch?&search={2}".format(league,self.notes_on_hold[player]["leagues"][league],re.split(" ",player)[1]))
 
-            player_string.append("Leagues:\n{}\n".format("\n".join(leagues)))
-            player_string.append("Rotowire notes:\n{}\n\n".format(self.notes_on_hold[player]["note"]))
+            player_string.append("\nLeagues:\n{}\n".format("\n".join(leagues)))
+            player_string.append("\nRotowire notes:\n{}\n\n".format(self.notes_on_hold[player]["note"]))
 
             email_string.append("".join(player_string))
 
@@ -381,9 +410,11 @@ class TransactionTrendsTracker():
 
         """
 
+        players_to_remove = []
+
         for player in self.notes_on_hold:
 
-            verbose_print("Processing player {}".format(player))                  
+            verbose_print("Processing notes for player {}".format(player))                  
 
             player_notes = self.league_monitor.get_availability_notes(self.transactions_json[player]["full_name"], 
                 self.notes_on_hold[player])
@@ -391,7 +422,12 @@ class TransactionTrendsTracker():
             if player_notes:
                 self.notes_on_hold[player] = player_notes
             else:
-                del self.notes_on_hold[player]
+                verbose_print("\tRemoving player")
+                players_to_remove.append(player)
+
+        for i in range(len(players_to_remove)):
+            del self.notes_on_hold[players_to_remove[i]]
+
 
     def new_player_notes_exist(self):
 
@@ -406,16 +442,18 @@ class TransactionTrendsTracker():
             player_profile = self.transactions_json[player]
             decision = self.notes_on_hold[player]
 
+            print "\tNotes:"
+            print self.json_tool.print_json(self.notes_on_hold[player])
+            print "\n\tProfile:"
+            self.json_tool.print_json(player_profile)
+
             verbose_print("Testing if previous notifications exist and meet qualifications")
 
-
-            """
-            if there was no previous notification for this player
-                there is a new
-            """
-
-            if "last_notification" not in player_profile:
+            if "last_notification" not in player_profile.keys():
                 # this player has not previously had a notification
+                print "Player causing update: {}".format(player)
+                print "Reason: player was not in previous json"
+                print player_profile.keys()
                 result = True
                 break
             else:
@@ -423,10 +461,17 @@ class TransactionTrendsTracker():
                     "hours")
                 if hour_difference > config.CONFIG["criteria"]["minimum_hours"]:
                     # more than <mininum_hours> have passed since the last notification:
+                    print "Player causing update: {}".format(player)
+                    print "Reason: previous update was long ago"
+                    self.json_tool.print_json(player_profile)
                     result = True
                     break
-                elif player_profile["last_notification"]["action"] != self.notes_on_hold[player]:
+                elif player_profile["last_notification"]["action"] != self.notes_on_hold[player]["action"]:
                     # the recommended action was different that it is now                    
+                    print "Player causing update: {}".format(player)
+                    print "Reason: previous action was different"
+                    self.json_tool.print_json(player_profile)
+                    self.json_tool.print_json(self.notes_on_hold[player])
                     result = True
                     break
 
@@ -445,7 +490,7 @@ class TransactionTrendsTracker():
         for player in self.notes_on_hold:
             self.transactions_json[player]["last_notification"] = {}
             self.transactions_json[player]["last_notification"]["date"] = self.my_date.date_dict
-            self.transactions_json[player]["last_notification"]["action"] = self.notes_on_hold[player]
+            self.transactions_json[player]["last_notification"]["action"] = self.notes_on_hold[player]["action"]
 
     def format_new_player_json(self, player):
         """
@@ -496,7 +541,7 @@ class TransactionTrendsTracker():
             e = sys.exc_info()[0]
             print e
             time.sleep(3)
-            name = full_name(player_link)
+            name = self.full_name(player_link)
 
         return name
 

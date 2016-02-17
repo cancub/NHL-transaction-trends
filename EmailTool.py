@@ -1,4 +1,5 @@
 import email.message
+import config, smtplib
 
 class EmailTool():
 	def __init__(self):

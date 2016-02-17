@@ -29,7 +29,7 @@ class LeagueMonitor():
 
         if self.change_suggested(availability, player_suggestion):
 
-            notes_to_send["verdict"] = player_suggestion
+            notes_to_send["action"] = player_suggestion
 
             # obtain the note for the player on rotoworld
             notes_to_send["note"] = self.note_taker.get_player_notes(player_name)
@@ -38,16 +38,16 @@ class LeagueMonitor():
             notes_to_send["leagues"] = {}
 
             for league in self.leagues:
-                if ((result == "add") and (availability[league] == "available")):
+                if ((player_suggestion == "add") and (availability[league] == "available")):
                     notes_to_send["leagues"][league] = self.leagues[league]                                
-                elif ((result == "drop") and (availability[league] == "on team")):
+                elif ((player_suggestion == "drop") and (availability[league] == "on team")):
                     notes_to_send["leagues"][league] = self.leagues[league]
 
         return notes_to_send
 
     def get_league_availability(self, player_name):
 
-        print player_name
+        # print player_name
 
         name_list = re.split(" ", player_name)
         search_term = "+".join(name_list)
@@ -58,7 +58,7 @@ class LeagueMonitor():
         for league in self.leagues:
             # print "Finding player availability in {}".format(league)
             search_link = self.leagues[league] + "playersearch?&search=" + search_term
-            print search_link
+            # print search_link
 
             r = requests.get(search_link)
             soup = BeautifulSoup(r.content,'html.parser')
