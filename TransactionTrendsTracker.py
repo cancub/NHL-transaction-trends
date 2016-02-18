@@ -120,28 +120,30 @@ class TransactionTrendsTracker():
 
             self.pull_new_transactions()
 
-            # print self.notes_on_hold
+            if self.new_transactions:
 
-            self.obtain_modified_transactions_json()
-            self.prepare_notes_to_send()
-
-            if self.new_player_notes_exist():
-                verbose_print("Actions recommended, sending email")
-                # modify notes_on_hold to contain the notes and league availability
                 # print self.notes_on_hold
-                # change the date dictionary for the last update on each player in transactions_json
-                self.update_json_timestamps()
-                summary = self.obtain_notes_summary()
-                self.email_tool.send_email(summary)
 
-            # should change this to a database
-            verbose_print("Writing modified transactions to json file")
-            self.json_tool.print_json(self.my_date.date_dict)
-            self.json_tool.write_file({"date_dict": self.my_date.date_dict,"players":self.transactions_json})
+                self.obtain_modified_transactions_json()
+                self.prepare_notes_to_send()
 
-            self.update_next_sample_time()
+                if self.new_player_notes_exist():
+                    verbose_print("Actions recommended, sending email")
+                    # modify notes_on_hold to contain the notes and league availability
+                    # print self.notes_on_hold
+                    # change the date dictionary for the last update on each player in transactions_json
+                    self.update_json_timestamps()
+                    summary = self.obtain_notes_summary()
+                    self.email_tool.send_email(summary)
 
-            self.clear_session_information()
+                # should change this to a database
+                verbose_print("Writing modified transactions to json file")
+                self.json_tool.print_json(self.my_date.date_dict)
+                self.json_tool.write_file({"date_dict": self.my_date.date_dict,"players":self.transactions_json})
+
+                self.update_next_sample_time()
+
+                self.clear_session_information()
 
     def load_transactions_json(self):
         my_json = self.json_tool.read_file()
@@ -222,7 +224,7 @@ class TransactionTrendsTracker():
             # the full html link
             if str(block.find(text=True)) == no_transactions_string:
                 print "No transactions yet today"
-                sys.exit(1)
+                break
 
             html_link = block.findAll('a')[1]
             # just the link string
