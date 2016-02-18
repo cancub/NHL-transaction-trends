@@ -166,8 +166,11 @@ class PlayerInfo():
     def calculate_new_averages(self):
         lifetime_adds = self.appearances * self.averages["adds"]
         lifetime_drops = self.appearances * self.averages["drops"]
-        self.averages["adds"] = float(lifetime_adds + self.stats_over_last_interval["adds"])/(self.appearances + 1)
-        self.averages["drops"] = float(lifetime_drops + self.stats_over_last_interval["drops"])/(self.appearances + 1)
+        B = config.CONFIG["criteria"]["beta"]
+        # self.averages["adds"] = float(lifetime_adds + self.stats_over_last_interval["adds"])/(self.appearances + 1)
+        # self.averages["drops"] = float(lifetime_drops + self.stats_over_last_interval["drops"])/(self.appearances + 1)
+        self.averages["adds"] =  (1-B) * self.averages["adds"] + B * self.stats_over_last_interval["adds"]
+        self.averages["drops"] =  (1-B) * self.averages["drops"] + B * self.stats_over_last_interval["drops"]
 
     def return_major_update(self):
         self.appearances += 1
