@@ -196,7 +196,6 @@ class TransactionTrendsTracker():
         self.player.update_date()
         self.my_date.update()
 
-
     def pull_new_transactions(self):
         # obtain webpage for yahoo transactions
         verbose_print("Finding today's transactions from Yahoo")
@@ -215,30 +214,34 @@ class TransactionTrendsTracker():
         # where we will hold all the players in the dictionary to return
         self.new_transactions = {}
 
-        for block in player_blocks:
-            # we just need:
-            # 1) name for referencing on different sites
-            # 2) drops for seeing if we should move the player
-            # 3) adds for seeing if we should get the player
+        try:
+            for block in player_blocks:
+                # we just need:
+                # 1) name for referencing on different sites
+                # 2) drops for seeing if we should move the player
+                # 3) adds for seeing if we should get the player
 
-            # the full html link
-            if str(block.find(text=True)) == no_transactions_string:
-                print "No transactions yet today"
-                break
+                # the full html link
+                if str(block.find(text=True)) == no_transactions_string:
+                    print "{}\nNo transactions yet today\n{}".format("*"*30)
+                    break
 
-            html_link = block.findAll('a')[1]
-            # just the link string
-            name_link = html_link['href']
+                html_link = block.findAll('a')[1]
+                # just the link string
+                name_link = html_link['href']
 
-            # find the contents of the player line
-            add_drop_info = block.findAll('td')
-            drops = int(add_drop_info[1].contents[0].contents[0])
-            adds = int(add_drop_info[2].contents[0].contents[0])
+                # find the contents of the player line
+                add_drop_info = block.findAll('td')
+                drops = int(add_drop_info[1].contents[0].contents[0])
+                adds = int(add_drop_info[2].contents[0].contents[0])
 
-            player_name = str(html_link.contents[0])
+                player_name = str(html_link.contents[0])
 
-            self.new_transactions[player_name] = {"drops":drops, "adds":adds, 
-                "player_page": name_link}
+                self.new_transactions[player_name] = {"drops":drops, "adds":adds, 
+                    "player_page": name_link}
+        except:
+            self.new_transactions = {}
+            print "{}\nProblem getting transactions\n{}".format("*"*30)
 
     def obtain_modified_transactions_json(self):
         # there are two possibilities here:
