@@ -37,5 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 *.pyc
-.config
+.config*
 transactions.json
