@@ -151,14 +151,14 @@ class TransactionTrendsTracker():
         if my_json:            
             date_dict = my_json["date_dict"]
             self.transactions_json = my_json["players"]
-            self.next_sample_time = self.my_date.make_datetime(date_dict) + 
+            self.next_sample_time = self.my_date.make_datetime(date_dict) + \
                 datetime.timedelta(minutes = config.CONFIG["criteria"]["sampling_interval"])
         else:
             self.next_sample_time = None
             self.transactions_json = None
 
     def update_next_sample_time(self):
-        self.next_sample_time = self.my_date.date + 
+        self.next_sample_time = self.my_date.date + \
             datetime.timedelta(minutes = config.CONFIG["criteria"]["sampling_interval"])
 
     def create_new_transactions_json(self):
