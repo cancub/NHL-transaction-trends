@@ -77,7 +77,7 @@ class PlayerInfo():
             # 1) the most recent number of adds/drops exceeds the average for this player
             #    by <percent_increase> and the total appearances is greater than <minimum_appearances>
             # 2) adds or drops exceed <percent_of_total> of the total transactions with total
-            #    number of transactions exceeding <minimum_transactions>
+            #    number of transactions exceeding a scaled version of <minimum_transactions_per_hour>
 
             if self.enough_appearances() and self.significant_transactions_occured():
 
@@ -102,7 +102,8 @@ class PlayerInfo():
             self.final_update = self.return_minor_update()
 
     def large_polling_gap(self):
-        return self.todays_date.time_difference(self.last_date_dict, "minutes") > config.CONFIG["criteria"]["maximum_gap"]
+        return self.todays_date.time_difference(self.last_date_dict, "minutes") > 
+            (config.CONFIG["criteria"]["sampling_interval"] + config.CONFIG["criteria"]["interval_leniency"])
 
     def do_nothing(self):
         # average_adds = previous_player_stats["averages"]["adds"]
@@ -161,7 +162,8 @@ class PlayerInfo():
 
     def enough_transactions_occured(self):
         total_transactions = self.stats_over_last_interval["adds"] + self.stats_over_last_interval["drops"]
-        return total_transactions > config.CONFIG["criteria"]["minimum_transactions"]
+        multiplier = config.CONFIG["criteria"]["sampling_interval"] / 60
+        return total_transactions > (config.CONFIG["criteria"]["minimum_transactions"] * multiplier)
 
     def calculate_new_averages(self):
         lifetime_adds = self.appearances * self.averages["adds"]
