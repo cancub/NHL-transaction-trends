@@ -102,7 +102,7 @@ class PlayerInfo():
             self.final_update = self.return_minor_update()
 
     def large_polling_gap(self):
-        return self.todays_date.time_difference(self.last_date_dict, "minutes") > 
+        return self.todays_date.time_difference(self.last_date_dict, "minutes") > \
             (config.CONFIG["criteria"]["sampling_interval"] + config.CONFIG["criteria"]["interval_leniency"])
 
     def do_nothing(self):
