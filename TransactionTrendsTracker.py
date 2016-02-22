@@ -82,7 +82,6 @@ def verbose_print(statement):
 class TransactionTrendsTracker():
 
     def __init__(self):
-        os.chdir('/home/{}/Dropbox/Code/Hockey/Transaction_trends/Development'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
         self.my_date = DateFormatter.DateFormatter()
         self.json_tool = JSONTool.JSONTool(config.CONFIG["misc"]["file_to_store"])
         self.email_tool = EmailTool.EmailTool()
@@ -601,6 +600,5 @@ class TransactionTrendsTracker():
 
 if __name__ == "__main__":
 
-    os.chdir('/home/{}/Dropbox/Code/Hockey/Transaction_trends/Development'.format(config.CONFIG["usernames"][str(uuid.getnode())]))
     tracker = TransactionTrendsTracker()
     tracker.run()
