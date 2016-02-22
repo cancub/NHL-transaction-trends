@@ -52,14 +52,9 @@ class DateFormatter():
 
         return date_dict
 
-    def time_difference(self, earlier_date,diff_type):
+    def time_difference(self, date_dict,diff_type):
 
-
-        # later = datetime.datetime(int(later_date["year"]),int(later_date["month"]), int(later_date["day"]), 
-        #     int(later_date["hour"]), int(later_date["minute"]))
-
-        earlier = datetime.datetime(int(earlier_date["year"]), int(earlier_date["month"]), int(earlier_date["day"]),
-            int(earlier_date["hour"]), int(earlier_date["minute"]), tzinfo=pytz.timezone('Canada/Eastern'))
+        earlier = self.make_datetime(date_dict)
 
         difference = self.date - earlier
 
@@ -76,6 +71,13 @@ class DateFormatter():
             result = difference.days
 
         return result
+
+    def make_datetime(self,date_dict):
+        return datetime.datetime(int(date_dict["year"]), int(date_dict["month"]), int(date_dict["day"]),
+            int(date_dict["hour"]), int(date_dict["minute"]), tzinfo=pytz.timezone('Canada/Eastern'))
+
+    def now(self):
+        return datetime.datetime.now(pytz.timezone('Canada/Eastern'))
 
     def update(self):
         self.__init__()

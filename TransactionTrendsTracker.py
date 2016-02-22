@@ -151,11 +151,7 @@ class TransactionTrendsTracker():
         if my_json:            
             date_dict = my_json["date_dict"]
             self.transactions_json = my_json["players"]
-            self.next_sample_time = datetime.datetime(date_dict["year"],
-                date_dict["month"],
-                date_dict["day"], 
-                date_dict["hour"],
-                date_dict["minute"]) + datetime.timedelta(minutes = 20)
+            self.next_sample_time = self.my_date.make_datetime(date_dict) + datetime.timedelta(minutes = 20)
         else:
             self.next_sample_time = None
             self.transactions_json = None
@@ -182,9 +178,9 @@ class TransactionTrendsTracker():
         # verbose_print("next sample time: {0}:{1}".format(self.next_sample_time.hour,
         #     self.next_sample_time.minute))
 
-        if self.next_sample_time and (self.next_sample_time > datetime.datetime.now()):
+        if self.next_sample_time and (self.next_sample_time > self.my_date.now()):
             # sleep for the difference in seconds between then and now
-            time_difference = self.next_sample_time - datetime.datetime.now()
+            time_difference = self.next_sample_time - self.my_date.now()
             verbose_print("Sleeping until {0}:{1}{2}".format(self.next_sample_time.hour,
                 "0" if self.next_sample_time.minute < 10 else "", self.next_sample_time.minute))
             time.sleep(time_difference.seconds)
