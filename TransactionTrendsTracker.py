@@ -181,7 +181,7 @@ class TransactionTrendsTracker():
         if self.next_sample_time and (self.next_sample_time > self.my_date.now()):
             # sleep for the difference in seconds between then and now
             time_difference = self.next_sample_time - self.my_date.now()
-            verbose_print("Sleeping until {0}:{1}{2}".format(self.next_sample_time.hour,
+            verbose_print("Sleeping {0} seconds until {1}:{2}{3}".format(time_difference.seconds, self.next_sample_time.hour,
                 "0" if self.next_sample_time.minute < 10 else "", self.next_sample_time.minute))
             time.sleep(time_difference.seconds)
             # print "{}\n".format("*"*self.columns)

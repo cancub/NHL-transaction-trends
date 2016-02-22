@@ -4,7 +4,8 @@ import pytz
 class DateFormatter():
 
     def __init__(self):
-        self.date = datetime.datetime.now(pytz.timezone('Canada/Eastern'))
+        self.my_tz = pytz.timezone("Canada/Eastern")
+        self.date = self.my_tz.localize(datetime.datetime.now())
         self.formatted_date = self.format_date()
         self.date_dict = self.make_date_dict()
     
@@ -73,11 +74,11 @@ class DateFormatter():
         return result
 
     def make_datetime(self,date_dict):
-        return datetime.datetime(int(date_dict["year"]), int(date_dict["month"]), int(date_dict["day"]),
-            int(date_dict["hour"]), int(date_dict["minute"]), tzinfo=pytz.timezone('Canada/Eastern'))
+        return self.my_tz.localize(datetime.datetime(int(date_dict["year"]), int(date_dict["month"]), int(date_dict["day"]),
+            int(date_dict["hour"]), int(date_dict["minute"])))
 
     def now(self):
-        return datetime.datetime.now(pytz.timezone('Canada/Eastern'))
+        return self.my_tz.localize(datetime.datetime.now())
 
     def update(self):
         self.__init__()
