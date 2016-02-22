@@ -4,7 +4,7 @@ import pytz
 class DateFormatter():
 
     def __init__(self):
-        self.date = datetime.datetime.now()
+        self.date = datetime.datetime.now(pytz.timezone('Canada/Eastern'))
         self.formatted_date = self.format_date()
         self.date_dict = self.make_date_dict()
     
@@ -59,7 +59,7 @@ class DateFormatter():
         #     int(later_date["hour"]), int(later_date["minute"]))
 
         earlier = datetime.datetime(int(earlier_date["year"]), int(earlier_date["month"]), int(earlier_date["day"]),
-            int(earlier_date["hour"]), int(earlier_date["minute"]))
+            int(earlier_date["hour"]), int(earlier_date["minute"]), tzinfo=pytz.timezone('Canada/Eastern'))
 
         difference = self.date - earlier
 
