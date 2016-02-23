@@ -163,7 +163,7 @@ class PlayerInfo():
     def enough_transactions_occured(self):
         total_transactions = self.stats_over_last_interval["adds"] + self.stats_over_last_interval["drops"]
         multiplier = config.CONFIG["criteria"]["sampling_interval"] / 60
-        return total_transactions > (config.CONFIG["criteria"]["minimum_transactions"] * multiplier)
+        return total_transactions > (config.CONFIG["criteria"]["minimum_transactions_per_hour"] * multiplier)
 
     def calculate_new_averages(self):
         lifetime_adds = self.appearances * self.averages["adds"]
