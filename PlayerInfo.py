@@ -138,10 +138,10 @@ class PlayerInfo():
         return drop_percent < config.CONFIG["criteria"]["percent_increase"]
 
     def get_increased_transaction_suggestion(self):
-        if self.player.significant_adds():
+        if self.significant_adds():
             # a spike in adds
             self.transaction_suggestion = "add"
-        elif self.player.significant_drops():
+        elif self.significant_drops():
             # a spike in drops
             self.transaction_suggestion = "drop"
 

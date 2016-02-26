@@ -380,8 +380,8 @@ class TransactionTrendsTracker():
             player_string.append("Stats:\n")
             player_string.append("\t24h:\tAdds: {0}\tDrops: {1}\n".format(player_stats["total"]["adds"],
                 player_stats["total"]["drops"]))  
-            player_string.append("\t20m:\tAdds: {0}\tDrops: {1}\n".format(player_stats["recent"]["adds"],
-                player_stats["recent"]["drops"])) 
+            player_string.append("\t{2}m:\tAdds: {0}\tDrops: {1}\n".format(player_stats["recent"]["adds"],
+                player_stats["recent"]["drops"], config.CONFIG["criteria"]["sampling_interval"])) 
             player_string.append("\nAction: {}\n".format(self.notes_on_hold[player]["action"]))
 
             leagues = []
